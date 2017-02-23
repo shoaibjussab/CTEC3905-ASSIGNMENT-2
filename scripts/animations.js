@@ -222,3 +222,19 @@ function carouselLeft(clickedButton) {
 	//scrolls carousel left
   carousel.scrollLeft -= carouselWidth;
 };
+
+//animation for title descriptions
+
+$('.title').children('#title-image').on('mouseenter', function(){
+	var description = $(this).siblings('.title-description');
+	description.css('display', 'block');
+	description.delay(1000).css('opacity', '1');
+
+});
+
+$('.title').children('#title-image').on('mouseleave', function(){
+	var description = $(this).siblings('.title-description');
+	description.css('display', 'none');
+	description.css('opacity', '0');
+
+});
