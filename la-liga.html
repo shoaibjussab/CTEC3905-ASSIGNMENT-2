@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sho Football League News</title>
+    <meta name="description" content="Get the latest in football news from the top leagues around the world.">
+    <!-- responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- social media sharing plugin -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="jssocials-1.4.0/jssocials-theme-plain.css">
+    <script src="jssocials-1.4.0/jssocials.min.js"></script>
+    <!-- styles -->
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div class="news-bulletin">
+    <div class="container flexbox scroll-animation">
+      <p>Fans Throw Flares During Match...<a href="articles/palermo-woes.html">read more at palermo-woes.html</a></p>
+      <p>Bayern Dominates...<a href="articles/dominant-bayern.html">read more at dominant-bayern.html</a></p>
+      <p>Messi Scores Brilliant Goal...<a href="articles/messi-overhead-screamer.html">read more at messi-overhead-screamer.html</a></p>
+      <p>Liverpool Loans Out Markovic...<a href="articles/markovic-joins-hull.html">read more at markovic-joins-hull.html</a></p>
+      <p>Ronaldo Sustains Injury...<a href="articles/ronaldo-ankle-injury.html">read more at ronaldo-ankle-injury.html</a></p>
+    </div>
+  </div>
+    <header style="background-image: url('images/la-liga.jpg')">
+        <img id="logo" src="images/logo3.png" width="800px" alt="Sho Football League News">
+        <h2>Get the latest in news from the Barclay's Premier League, Bundesliga, Serie A, and La Liga.</h2>
+    </header>
+    <nav>
+        <ul class="flexbox">
+            <div class="nav-left">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="la-liga.html">
+                    <li id="active">La Liga</li>
+                </a>
+                <a href="bundesliga.html">
+                    <li>Bundesliga</li>
+                </a>
+                <a href="serie-a.html">
+                    <li>Serie A</li>
+                </a>
+                <a href="premier-league.html">
+                    <li>Premier League</li>
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="about-us.html">
+                    <li>About Us</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact Us</li>
+                </a>
+            </div>
+        </ul>
+    </nav>
+    <nav class="mobile-nav flexbox">
+        <p id="nav-text">MENU</p>
+        <div class="mobile-nav-buttons">
+            <p class="close-nav">X</p>
+            <p class="main-menu" id="active-tab" onclick="changeTab(this)">Main Menu</p>
+            <p class="league-leaders" onclick="changeTab(this)">League Leaders</p>
+			<p class="more" onclick="changeTab(this)">More</p>
+        </div>
+        <ul class="nav-links flexbox">
+            <a href="index.html">
+                <li>HOME</li>
+            </a>
+            <a href="la-liga.html">
+                <li id="active">LA LIGA</li>
+            </a>
+            <a href="bundesliga.html">
+                <li>BUNDESLIGA</li>
+            </a>
+            <a href="serie-a.html">
+                <li>SERIE A</li>
+            </a>
+            <a href="premier-league.html">
+                <li>PREMIER LEAGUE</li>
+            </a>
+        </ul>
+		<ul class="more-links flexbox">
+			<a href="about-us.html">
+                <li>ABOUT US</li>
+            </a>
+            <a href="contact.html">
+                <li>CONTACT US</li>
+			</a>
+		</ul>
+        <div class="mobile-search flexbox">
+            <a href="clubs/chelsea.html">
+                <li>CHELSEA</li>
+            </a>
+            <a href="clubs/juventus.html">
+                <li>JUVENTUS</li>
+			</a>
+			<a href="clubs/madrid.html">
+                <li>MADRID</li>
+            </a>
+            <a href="clubs/bayern.html">
+                <li>BAYERN</li>
+			</a>
+        </div>
+    </nav>
+    <main class="flexbox">
+        <section id="new-stories">
+            <h2>La Liga News</h2>
+            <div id="main-story">
+                <h3>Can Barcelona Make It Back to Back La Liga Titles?</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/FC_Barcelona_celebra_la_Liga_2009-2010_2.jpg/1280px-FC_Barcelona_celebra_la_Liga_2009-2010_2.jpg" alt="an image you choose to represent the article" width="700px" height="400px">
+                <p>After a superb 2015/2016 campaign. Can Barcelona successfully defend their La Liga title? </p>
+                <a href="articles/barcelona-la-liga-titles.html"><button class="read-more">Read more</button></a>
+            </div>
+            <div id="stories" class="flexbox">
+                <div class="story">
+                    <h3>Ronaldo Sustains Ankle Injury</h3>
+                    <img src="https://c1.staticflickr.com/9/8632/16166697729_eee58fb011_z.jpg" alt="an image you choose to represent the article" width="300px" height="200px">
+                    <p>Cristiano Ronaldo is set to miss three weeks of playing time as he has sustained a heavy knock
+                    in training on his right ankle. The injury sustained was caused by a heavy challenge from team mate Marcelo.</p>
+                    <a href="articles/ronaldo-ankle-injury.html"><button class="read-more">Read more</button></a>
+                </div>
+                <div class="story">
+                    <h3>Sanchez Storms Out of Press Conference</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Nuno_Esp%C3%ADrito_Santo.jpg" alt="an image you choose to represent the article" width="300px" height="200px">
+                    <p>An angry Victor Sanchez stormed out of today's La Liga press conference as he attacks the press for putting his
+                      position under scrutiny.</p>
+                    <a href="articles/sanchez-press-conference.html"><button class="read-more">Read more</button></a>
+                </div>
+                <div class="story">
+                    <h3>Kameni Sees Red</h3>
+                    <img src="http://www.45fois2.com/backoffice/__pictures/Image_20140925194905/cameni.jpg" alt="an image you choose to represent the article" width="300px" height="200px">
+                    <p>Malaga goalkeeper Carlos Kameni gets sent off in heated clash as he fouls Antoine Griezmann inside the 6-yard Box.</p>
+                    <a href="articles/kameni-sees-red.html"><button class="read-more">Read more</button></a>
+                </div>
+                <div class="story">
+                    <h3>Brilliant Busquets</h3>
+                    <img src="https://c2.staticflickr.com/8/7239/7309847182_6ed1b00de4_b.jpg" alt="an image you choose to represent the article" width="300px" height="200px">
+                    <p>How important is Busquets' sensational form to Barcelona's title challenge?</p>
+                    <a href="articles/brilliant-busquets.html"><button class="read-more">Read more</button></a>
+                </div>
+            </div>
+
+            <h2>Fixtures</h2>
+            <div class="fixtures">
+                <div class="fixture">
+                    <h3>Friday 27th January 2017</h3>
+                    <p class="flexbox">
+                        <time>19:45</time>
+                        <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Osasuna.png" width="25px" height="25px">Osasuna</span> vs
+                        <span class="team">Malaga<img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Malaga-CF.png" width="25px" height="25px"></span>
+                    </p>
+                </div>
+                <div class="fixture">
+                    <h3>Saturday 28th January 2017</h3>
+                    <p class="flexbox">
+                        <time>12:00</time>
+                        <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Villareal.png" width="25px" height="25px">Villarreal</span> vs
+                        <span class="team">Granada<img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Granada.png" width="25px" height="25px"></span>
+                    </p>
+                    <p class="flexbox">
+                        <time>15:15</time>
+                        <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Alaves.png" width="25px" height="25px">Alaves</span> vs
+                        <span class="team">Atletico<img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Atletico-Madrid.png" width="25px" height="25px"></span>
+                    </p>
+                    <p class="flexbox">
+                        <time>17:30</time>
+                        <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Eibar.png" width="25px" height="25px">Eibar</span> vs
+                        <span class="team">Coruna<img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Deportivo.png" width="25px" height="25px"></span>
+                    </p>
+                    <p class="flexbox">
+                        <time>19:45</time>
+                        <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Leganes.png" width="25px" height="25px">Leganes</span> vs
+                        <span class="team">Celta Vigo<img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Celta.png" width="25px" height="25px"></span>
+                    </p>
+                </div>
+                <div class="fixture">
+                    <h3>Sunday 29 January 2017</h3>
+                    <p class="flexbox">
+                        <time>11:00</time>
+                        <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Betis.png" width="25px" height="25px">Real Beits</span> vs
+                        <span class="team">Barcelona<img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Barcelona.png" width="25px" height="25px"></span>
+                    </p>
+                    <p class="flexbox">
+                        <time>15:15</time>
+                        <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Espanyol.png" width="25px" height="25px">Espanyol</span> vs
+                        <span class="team">Sevilla<img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Sevilla.png" width="25px" height="25px"></span>
+                    </p>
+                    <p class="flexbox">
+                        <time>17:30</time>
+                        <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Bilbao.png" width="25px" height="25px">Bilbao</span> vs
+                        <span class="team">Gijon<img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Gijon.png" width="25px" height="25px"></span>
+                    </p>
+                    <p class="flexbox">
+                        <time>19:45</time>
+                        <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Madrid.png" width="25px" height="25px">Real Madrid</span> vs
+                        <span class="team">Real Sociedad<img alt="the football team's logo" class="team-logo" src="images/teams/la-liga/Sociedad.png" width="25px" height="25px"></span>
+                    </p>
+                </div>
+            </div>
+            <h2>Match Results</h2>
+            <div class="results">
+                <h3>Sunday 22nd January 2017</h3>
+                <div class="result flexbox">
+                    <div class="team">
+                        <img src="images/teams/la-liga/Osasuna.png" width="150px" height="150px">
+                        <p>Osasuna</p>
+                    </div>
+                    <div class="score">
+                        <p>3 - 4</p>
+                    </div>
+                    <div class="team">
+                        <img src="images/teams/la-liga/Sevilla.png" width="150px" height="150px">
+                        <p>Sevilla</p>
+                    </div>
+                </div>
+                <div class="result flexbox">
+                    <div class="team">
+                        <img src="images/teams/la-liga/Bilbao.png" width="150px" height="150px">
+                        <p>Athletic Bilbao</p>
+                    </div>
+                    <div class="score">
+                        <p>2 - 2</p>
+                    </div>
+                    <div class="team">
+                        <img src="images/teams/la-liga/Atletico-Madrid.png" width="150px" height="150px">
+                        <p>Atletico Madrid</p>
+                    </div>
+                </div>
+                <div class="result flexbox">
+                    <div class="team">
+                        <img src="images/teams/la-liga/Betis.png" width="150px" height="150px">
+                        <p>Real Betis
+                            <p>
+                    </div>
+                    <div class="score">
+                        <p>0 - 0</p>
+                    </div>
+                    <div class="team">
+                        <img src="images/teams/la-liga/Gijon.png" width="150px" height="150px">
+                        <p>Sporting Gijon</p>
+                    </div>
+                </div>
+                <div class="result flexbox">
+                    <div class="team">
+                        <img src="images/teams/la-liga/Sociedad.png" width="150px" height="150px">
+                        <p>Real Sociedad
+                            <p>
+                    </div>
+                    <div class="score">
+                        <p>1 - 0</p>
+                    </div>
+                    <div class="team">
+                        <img src="images/teams/la-liga/Celta.png" width="150px" height="150px">
+                        <p>Celta Vigo</p>
+                    </div>
+                </div>
+                <div class="result flexbox">
+                    <div class="team">
+                        <img src="images/teams/la-liga/Eibar.png" width="150px" height="150px">
+                        <p>Eibar
+                            <p>
+                    </div>
+                    <div class="score">
+                        <p>0 - 4</p>
+                    </div>
+                    <div class="team">
+                        <img src="images/teams/la-liga/Barcelona.png" width="150px" height="150px">
+                        <p>Barcelona</p>
+                    </div>
+                </div>
+            </div>
+            <h2>Teams</h2>
+            <!-- carousel of the different teams -->
+            <figure class="teams flexbox">
+                <div class="scrollLeft scroll" onclick="carouselLeft(this)">Prev</div>
+                <div class="carouselContainer">
+                    <ul class="carousel" id="carousel-la-liga">
+                        <li class="flexbox">
+                            <div class="team">
+                                <img src="images/teams/la-liga/Barcelona.png" width="130px" height="130px">
+                                <p>Barcelona FC
+                                    <p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Madrid.png" width="130px" height="130px">
+                                <p>Real Madrid CF</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Atletico-Madrid.png" width="130px" height="130px">
+                                <p>Atletico Madrid</p>
+                            </div>
+                        </li>
+                        <li class="flexbox">
+                            <div class="team">
+                                <img src="images/teams/la-liga/Valencia.png" width="130px" height="130px">
+                                <p>Valencia CF</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Sevilla.png" width="130px" height="130px">
+                                <p>Sevilla FC</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Villareal.png" width="130px" height="130px">
+                                <p>Villareal CF</p>
+                            </div>
+                        </li>
+                        <li class="flexbox">
+                            <div class="team">
+                                <img src="images/teams/la-liga/Sociedad.png" width="130px" height="130px">
+                                <p>Real Sociedad</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Celta.png" width="130px" height="130px">
+                                <p>Celta de Vigo</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Deportivo.png" width="130px" height="130px">
+                                <p>Deportivo de La Coruna</p>
+                            </div>
+                        </li>
+                        <li class="flexbox">
+                            <div class="team">
+                                <img src="images/teams/la-liga/Leganes.png" width="130px" height="130px">
+                                <p>CD Leganes</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Bilbao.png" width="130px" height="130px">
+                                <p>Atheletic Bilbao</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Eibar.png" width="130px" height="130px">
+                                <p>SD Eibar</p>
+                            </div>
+                        </li>
+                        <li class="flexbox">
+                            <div class="team">
+                                <img src="images/teams/la-liga/Espanyol.png" width="130px" height="130px">
+                                <p>RCD Espanyol</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Palmas.png" width="130px" height="130px">
+                                <p>UD Las Palmas</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Alaves.png" width="130px" height="130px">
+                                <p>Deportivo Alaves</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Malaga-CF.png" width="130px" height="130px">
+                                <p>Malaga CF</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Betis.png" width="130px" height="130px">
+                                <p>Real Betis</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Gijon.png" width="130px" height="130px">
+                                <p>Sporting de Gijon</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Granada.png" width="130px" height="130px">
+                                <p>Granada CF</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Osasuna.png" width="130px" height="130px">
+                                <p>CA Osasuna</p>
+                            </div>
+                            <div class="team">
+                                <img src="images/teams/la-liga/Tetuan.png" width="130px" height="130px">
+                                <p>Atletico Tetuan</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scrollRight scroll" onclick="carouselRight(this)">Next</div>
+                <!-- these will only display on mobile devices -->
+                <div class="mobile-scroll-buttons">
+                    <div class="mobile-scroll-left mobile-scroll" onclick="carouselLeft(this)">Prev</div>
+                    <div class="mobile-scroll-right mobile-scroll" onclick="carouselRight(this)">Next</div>
+                </div>
+            </figure>
+
+            <h2>The League Leader</h2>
+            <div class="league-leader">
+             <div class="team">
+                <a href="clubs/madrid.html"><img src="images/teams/la-liga/Madrid.png" width="200px" height="200px">
+                <h3>REAL MADRID</h3></a>
+              </div>
+            </div>
+
+            <h2>Videos</h2>
+            <div class="videos">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/BqVdZmd4WFA" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+                    <h3>Nabil Elzhar's Scintillating Performance</h3>
+                    <p>Nabil Elzhar returns to form as he puts in a great performance for Las Palmas against Real Madrid.</p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/aZyFQHnoSQA" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+                    <h3>Not an Everyday Training Session for Lionel Messi</h3>
+                    <p>Lionel Messi Participates in a Bizarre Training Session at the Barcelona Training ground.</p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/3oUL_lx2880" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+                    <h3>Messi and Neymar Showcase their Talent</h3>
+                    <p>Lionel Messi and Neymar showcase the extraordinary skills and qualities in this training session.</p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/8PZu2VBvAuU" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+                    <h3>Sevilla Goalkeeper Suffers Nasty Head Injury</h3>
+                    <p>Sevilla Goalkeeper Beto suffers head injury in the clash with title rivals Real Madrid.</p>
+                </div>
+            </div>
+            <h2>Tables</h2>
+            <div class="tables">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Team</th>
+                            <th title="matches played">MP</th>
+                            <th title="wins">W</th>
+                            <th title="draws">D</th>
+                            <th title="losses">L</th>
+                            <th title="goals for">F</th>
+                            <th title="goals against">A</th>
+                            <th title="goal difference">GD</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><img src="images/teams/la-liga/Madrid.png" width="25px" height="25px"> Real Madrid</td>
+                            <td>18</td>
+                            <td>13</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>48</td>
+                            <td>17</td>
+                            <td>+31</td>
+                            <td>43</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><img src="images/teams/la-liga/Sevilla.png" width="25px" height="25px"> Sevilla</td>
+                            <td>19</td>
+                            <td>13</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>42</td>
+                            <td>25</td>
+                            <td>+17</td>
+                            <td>42</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><img src="images/teams/la-liga/Barcelona.png" width="25px" height="25px"> Barcelona</td>
+                            <td>19</td>
+                            <td>12</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>51</td>
+                            <td>17</td>
+                            <td>+34</td>
+                            <td>41</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><img src="images/teams/la-liga/Atletico-Madrid.png" width="25px" height="25px"> Atletico Madrid</td>
+                            <td>19</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>4</td>
+                            <td>34</td>
+                            <td>16</td>
+                            <td>+18</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><img src="images/teams/la-liga/Sociedad.png" width="25px" height="25px"> Real Sociedad</td>
+                            <td>9</td>
+                            <td>11</td>
+                            <td>2</td>
+                            <td>6</td>
+                            <td>31</td>
+                            <td>25</td>
+                            <td>+6</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td><img src="images/teams/la-liga/Villareal.png" width="25px" height="25px"> Villareal</td>
+                            <td>20</td>
+                            <td>9</td>
+                            <td>7</td>
+                            <td>4</td>
+                            <td>28</td>
+                            <td>14</td>
+                            <td>+14</td>
+                            <td>34</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td><img src="images/teams/la-liga/Bilbao.png" width="25px" height="25px"> Athletic Bilbao</td>
+                            <td>19</td>
+                            <td>8</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>24</td>
+                            <td>21</td>
+                            <td>+3</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td><img src="images/teams/la-liga/Celta.png" width="25px" height="25px"> Celta Vigo</td>
+                            <td>19</td>
+                            <td>8</td>
+                            <td>3</td>
+                            <td>8</td>
+                            <td>29</td>
+                            <td>33</td>
+                            <td>-4</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td><img src="images/teams/la-liga/Eibar.png" width="25px" height="25px"> Eibar</td>
+                            <td>19</td>
+                            <td>7</td>
+                            <td>5</td>
+                            <td>7</td>
+                            <td>25</td>
+                            <td>28</td>
+                            <td>-3</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td><img src="images/teams/la-liga/Espanyol.png" width="25px" height="25px"> Espanyol</td>
+                            <td>19</td>
+                            <td>6</td>
+                            <td>8</td>
+                            <td>5</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>-1</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td><img src="images/teams/la-liga/Palmas.png" width="25px" height="25px"> Las Palmas</td>
+                            <td>19</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>6</td>
+                            <td>28</td>
+                            <td>30</td>
+                            <td>-2</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td><img src="images/teams/la-liga/Alaves.png" width="25px" height="25px"> Deportivo Alaves</td>
+                            <td>19</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>17</td>
+                            <td>20</td>
+                            <td>-3</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td><img src="images/teams/la-liga/Malaga-CF.png" width="25px" height="25px"> Malaga CF</td>
+                            <td>20</td>
+                            <td>5</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>28</td>
+                            <td>34</td>
+                            <td>-6</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td><img src="images/teams/la-liga/Betis.png" width="25px" height="25px"> Real Betis</td>
+                            <td>19</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>9</td>
+                            <td>20</td>
+                            <td>30</td>
+                            <td>-10</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td><img src="images/teams/la-liga/Valencia.png" width="25px" height="25px"> Valencia</td>
+                            <td>18</td>
+                            <td>5</td>
+                            <td>4</td>
+                            <td>9</td>
+                            <td>28</td>
+                            <td>33</td>
+                            <td>-5</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td><img src="images/teams/la-liga/Deportivo.png" width="25px" height="25px"> Deportivo</td>
+                            <td>19</td>
+                            <td>4</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>24</td>
+                            <td>29</td>
+                            <td>-5</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td><img src="images/teams/la-liga/Leganes.png" width="25px" height="25px"> Leganes</td>
+                            <td>19</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>9</td>
+                            <td>15</td>
+                            <td>31</td>
+                            <td>-16</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td><img src="images/teams/la-liga/Gijon.png" width="25px" height="25px"> Sporting de Gijon</td>
+                            <td>19</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>12</td>
+                            <td>19</td>
+                            <td>37</td>
+                            <td>-18</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td><img src="images/teams/la-liga/Osasuna.png" width="25px" height="25px"> Osasuna</td>
+                            <td>20</td>
+                            <td>1</td>
+                            <td>7</td>
+                            <td>12</td>
+                            <td>21</td>
+                            <td>43</td>
+                            <td>-22</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td><img src="images/teams/la-liga/Granada.png" width="25px" height="25px"> Granada</td>
+                            <td>20</td>
+                            <td>1</td>
+                            <td>7</td>
+                            <td>12</td>
+                            <td>16</td>
+                            <td>44</td>
+                            <td>-28</td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+        </section>
+        <aside id="search">
+              <h3>La Liga Title</h3>
+              <br>
+              <div class="title">
+        				<img id="title-image" src="images/titles/la-liga.jpg" width="150px" height="150px">
+        				<div class="title-description">
+        					<p>A total of 60 teams have competed in La Liga since it has been created. Nine teams have been crowned
+        					champions, with Real Madrid winning the title for a record 32 times. The team that finishes top of La Liga
+        					will be crowned champions with this exquisite trophy.</p>
+        				</div>
+        			</div>
+        </aside>
+    </main>
+
+    <footer>
+      <h4>Share Sho Football League News</h4>
+      <div id="share" class="flexbox"></div>
+    </footer>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="scripts/animations.js"></script>
+    <script type="text/javascript" src="scripts/social-media.js"></script>
+</body>
+
+</html>
