@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Sho Football League News</title>
+	<meta name="description" content="Get the latest in football news from the top leagues around the world.">
+	<!-- responsive meta tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab" rel="stylesheet">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- social media sharing plugin -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="jssocials-1.4.0/jssocials-theme-plain.css">
+  <script src="jssocials-1.4.0/jssocials.min.js"></script>
+	<!-- styles -->
+	<link type="text/css" rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+  <div class="news-bulletin">
+	  <div class="container flexbox scroll-animation">
+	    <p>Fans Throw Flares During Match...<a href="articles/palermo-woes.html">read more at palermo-woes.html</a></p>
+        <p>Bayern Dominates...<a href="articles/dominant-bayern.html">read more at dominant-bayern.html</a></p>
+        <p>Messi Scores Brilliant Goal...<a href="articles/messi-overhead-screamer.html">read more at messi-overhead-screamer.html</a></p>
+        <p>Liverpool Loans Out Markovic...<a href="articles/markovic-joins-hull.html">read more at markovic-joins-hull.html</a></p>
+        <p>Ronaldo Sustains Injury...<a href="articles/ronaldo-ankle-injury.html">read more at ronaldo-ankle-injury.html</a></p>
+	  </div>
+	</div>
+	<header style="background-image: url('images/bundesliga.jpg')">
+	  <img id="logo" src="images/logo3.png" width="800px" alt="Sho Football League News">
+	  <h2>Get the latest in news from the Barclay's Premier League, Bundesliga, Serie A, and La Liga.</h2>
+	</header>
+	<nav>
+    <ul class="flexbox">
+		  <div class="nav-left">
+	      <a href="index.html"><li>Home</li></a>
+        <a href="la-liga.html"><li>La Liga</li></a>
+        <a href="bundesliga.html"><li id="active">Bundesliga</li></a>
+	      <a href="serie-a.html"><li>Serie A</li></a>
+		    <a href="premier-league.html"><li>Premier League</li></a>
+		  </div>
+		  <div class="nav-right">
+		    <a href="about-us.html"><li>About Us</li></a>
+		    <a href="contact.html"><li>Contact Us</li></a>
+		  </div>
+	  </ul>
+	</nav>
+  <nav class="mobile-nav flexbox">
+        <p id="nav-text">MENU</p>
+        <div class="mobile-nav-buttons">
+            <p class="close-nav">X</p>
+            <p class="main-menu" id="active-tab" onclick="changeTab(this)">Main Menu</p>
+            <p class="league-leaders" onclick="changeTab(this)">League Leaders</p>
+			<p class="more" onclick="changeTab(this)">More</p>
+        </div>
+        <ul class="nav-links flexbox">
+            <a href="index.html">
+                <li>HOME</li>
+            </a>
+            <a href="la-liga.html">
+                <li>LA LIGA</li>
+            </a>
+            <a href="bundesliga.html">
+                <li id="active">BUNDESLIGA</li>
+            </a>
+            <a href="serie-a.html">
+                <li>SERIE A</li>
+            </a>
+            <a href="premier-league.html">
+                <li>PREMIER LEAGUE</li>
+            </a>
+        </ul>
+		<ul class="more-links flexbox">
+			<a href="about-us.html">
+                <li>ABOUT US</li>
+            </a>
+            <a href="contact.html">
+                <li>CONTACT US</li>
+			</a>
+		</ul>
+        <div class="mobile-search flexbox">
+            <a href="clubs/chelsea.html">
+                <li>CHELSEA</li>
+            </a>
+            <a href="clubs/juventus.html">
+                <li>JUVENTUS</li>
+			</a>
+			<a href="clubs/madrid.html">
+                <li>MADRID</li>
+            </a>
+            <a href="clubs/bayern.html">
+                <li>BAYERN</li>
+			</a>
+        </div>
+    </nav>
+	<main class="flexbox">
+	  <section id="new-stories">
+		<h2>Bundesliga News</h2>
+		<div id="main-story">
+		  <h3>Amazing Allianz Arena</h3>
+		  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/FC_Bayern_M%C3%BCnchen_vs_VfL_Wolfsburg_2010-08-20.jpg" alt="an image you choose to represent the article" width="700px" height="400px">
+		  <p>Home to arguably one of the best teams on teams in the world. Bayern Munich's 75,000-capacity stadium is widely
+      known for its exterior of inflated ETFE plastic panels. It is the first stadium in the world with a full colour changing
+      exterior.</p>
+		  <a href="articles/amazing-allianz-arena.html"><button class="read-more">Read more</button></a>
+        </div>
+	    <div id="stories" class="flexbox">
+		  <div class="story">
+		    <h3>Alonso Like "Fine Wine"</h3>
+            <img src="http://g.udn.com.tw/upfiles/B_19/19900811/PSN_PHOTO/004/f_16180004_1.jpg" alt="an image you choose to represent the article" width="300px" height="200px">
+            <p>Xabi Alonso is arguably in the form of his life at the Bavarians at the ripe old age of 35. The player is
+            in the twilight years of his career and like "Fine Wine" seems to only get better.</p>
+			<a href="articles/alonso-like-fine-wine.html"><button class="read-more">Read more</button></a>
+		  </div>
+		  <div class="story">
+			  <h3>Red Bull Leipzig Take Bundesliga By Storm</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/FC_Red_Bull_Salzburg_gege._FC_Wacker_Innsbruck_(Bundesliga)_17.JPG/320px-FC_Red_Bull_Salzburg_gege._FC_Wacker_Innsbruck_(Bundesliga)_17.JPG" alt="an image you choose to represent the article" width="300px" height="200px">
+        <p>Currently sitting comfortably in second place, Red Bull Leipzig are playing some tremendous football in the
+        process.</p>
+			  <a href="articles/leipzig-take-bundesliga.html"><button class="read-more">Read more</button></a>
+		  </div>
+      <div class="story">
+		    <h3>Hernandez Strikes Twice to Give Leverkusen Victory</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Freistoss-RB_Salzburg-18-09-2005.jpg" alt="an image you choose to represent the article" width="300px" height="200px">
+			  <p>Javier Hernandez strikes twice in the first half as Bayer Leverkusen Pick Up Comfortable Win.</p>
+			  <a href="articles/hernandez-strikes-twice.html"><button class="read-more">Read more</button></a>
+		  </div>
+      <div class="story">
+			  <h3>Eintracht Frankfurt Defeat Schalke</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Eintrachtadler.JPG" alt="an image you choose to represent the article" width="300px" height="200px">
+		    <p>Eintracht Frankfurt Defeat Schalke in a less than intriguing encounter. The match ended 1:0.</p>
+			  <a href="articles/frankfurt-defeat-schalke.html"><button class="read-more">Read more</button></a>
+	    </div>
+    </div>
+
+	    <h2>Fixtures</h2>
+		<div class="fixtures">
+		  <div class="fixture">
+		    <h3>Friday 27th January 2017</h3>
+		    <p class="flexbox">
+			  <time>19:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Schalke.png" width="25px" height="25px">Schalke</span>
+		      vs
+			  <span class="team">Eintracht<img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Eintracht.png" width="25px" height="25px"></span>
+			</p>
+		  </div>
+		  <div class="fixture">
+		    <h3>Saturday 28th January 2017</h3>
+		    <p class="flexbox">
+			  <time>14:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Ingolstadt.png" width="25px" height="25px">Ingolstadt</span>
+		      vs
+			  <span class="team">Dortmund<img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Dortmund.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>14:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Leipzig.png" width="25px" height="25px">RB Leipzig</span>
+		      vs
+			  <span class="team">Hoffenheim<img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Hoffenheim.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>14:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Darmstadt.png" width="25px" height="25px">Darmstadt</span>
+		      vs
+			  <span class="team">Koln<img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Koln.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>14:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Werder.png" width="25px" height="25px">Werder</span>
+		      vs
+			  <span class="team">Bayern<img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Bayern.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>14:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Wolfsburg.png" width="25px" height="25px">Wolfsburg</span>
+		      vs
+			  <span class="team">Ausburg<img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Augsburg.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>17:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Bayer-04.png" width="25px" height="25px">Bayer 04</span>
+		      vs
+			  <span class="team">Monchengladbach<img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Monchengladbach.png" width="25px" height="25px"></span>
+			</p>
+		  </div>
+		  <div class="fixture">
+		    <h3>Sunday 29th January 2017</h3>
+			<p class="flexbox">
+			  <time>14:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Freiburg.png" width="25px" height="25px">Freiburg</span>
+		      vs
+			  <span class="team">Hertha<img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Hertha.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>16:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Mainz.png" width="25px" height="25px">Mainz</span>
+		      vs
+			  <span class="team">Dortmund<img alt="the football team's logo" class="team-logo" src="images/teams/bundesliga/Dortmund.png" width="25px" height="25px"></span>
+			</p>
+		  </div>
+		</div>
+		<h2>Match Results</h2>
+		<div class="results">
+		  <h3>Saturday 22nd January</h3>
+		  <div class="result flexbox">
+		    <div class="team">
+			  <img src="images/teams/bundesliga/Bayer-04.png" width="130px" height="130px">
+			  <p>Bayer 04</p>
+		    </div>
+		    <div class="score">
+			  <p>3 - 1</p>
+			</div>
+			<div class="team">
+			  <img src="images/teams/bundesliga/Hertha.png" width="130px" height="130px">
+			  <p>Hertha</p>
+		    </div>
+	      </div>
+		  <div class="result flexbox">
+			<div class="team">
+			  <img src="images/teams/bundesliga/Mainz.png" width="130px" height="130px">
+			  <p>Mainz</p>
+			</div>
+			<div class="score">
+		      <p>0 - 0</p>
+			</div>
+			<div class="team">
+			  <img src="images/teams/bundesliga/Koln.png" width="130px" height="130px">
+			  <p>Koln</p>
+			</div>
+		  </div>
+		</div>
+		<h2>Teams</h2>
+		<!-- carousel of the different teams -->
+        <figure class="teams flexbox">
+		  <div class="scrollLeft scroll" onclick="carouselLeft(this)">Prev</div>
+	      <div class="carouselContainer">
+			<ul class="carousel">
+			  <li class="flexbox">
+			    <div class="team">
+				  <img src="images/teams/bundesliga/Bayern.png" width="130px" height="130px"><p>Bayern Munchen FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/bundesliga/Dortmund.png" width="130px" height="130px"><p>Borussia Dortmund FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/bundesliga/Hamburger-SV.png" width="130px" height="130px"><p>Hamburger SV</p>
+				</div>
+		      </li>
+		      <li class="flexbox">
+				<div class="team">
+				  <img src="images/teams/bundesliga/Monchengladbach.png" width="130px" height="130px"><p>Monchengladbach FC</p>
+				</div>
+			    <div class="team">
+				  <img src="images/teams/bundesliga/Schalke.png" width="130px" height="130px"><p>Schalke FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/bundesliga/Werder.png" width="130px" height="130px"><p>SV Werder Bremen</p>
+				</div>
+			  </li>
+			  <li class="flexbox">
+			    <div class="team">
+				  <img src="images/teams/bundesliga/Hertha.png" width="130px" height="130px"><p>Hertha BSC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/bundesliga/Eintracht.png" width="130px" height="130px"><p>Eintracht Frankfurt</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/bundesliga/Wolfsburg.png" width="130px" height="130px"><p>VFL Wolfsburg</p>
+				</div>
+			  </li>
+			  <li class="flexbox">
+			    <div class="team">
+				  <img src="images/teams/bundesliga/Koln.png" width="130px" height="130px"><p>FC Koln</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/bundesliga/Freiburg.png" width="130px" height="130px"><p>SC Freiburg</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/bundesliga/Bayer-04.png" width="130px" height="130px"><p>Bayer 04</p>
+				</div>
+		      </li>
+		      <li class="flexbox">
+				<div class="team">
+				  <img src="images/teams/bundesliga/Leipzig.png" width="130px" height="130px"><p>RB Leipzig</p>
+				</div>
+			    <div class="team">
+				  <img src="images/teams/bundesliga/Hoffenheim.png" width="130px" height="130px"><p>SV Hoffenheim</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/bundesliga/Mainz.png" width="130px" height="130px"><p> FSV Mainz 05</p>
+				</div>
+			  </li>
+			  <li>
+			    <div class="team">
+				  <img src="images/teams/bundesliga/Ingolstadt.png" width="130px" height="130px"><p>FC Ingolstadt 04</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/bundesliga/Augsburg.png" width="130px" height="130px"><p>FC Augsburg</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/bundesliga/Darmstadt.png" width="130px" height="130px"><p>SV Darmstadt 98</p>
+				</div>
+			  </li>
+			</ul>
+		  </div>
+		  <div class="scrollRight scroll" onclick="carouselRight(this)">Next</div>
+		  <!-- these will only display on mobile devices -->
+		  <div class="mobile-scroll-buttons">
+		    <div class="mobile-scroll-left mobile-scroll" onclick="carouselLeft(this)">Prev</div>
+		    <div class="mobile-scroll-right mobile-scroll" onclick="carouselRight(this)">Next</div>
+		  </div>
+    </figure>
+    <h2>The League Leader</h2>
+    <div class="league-leader">
+      <div class="team">
+        <a href="clubs/bayern.html"><img src="images/teams/bundesliga/Bayern.png" width="200px" height="200px">
+        <h3>BAYERN MUNICH</h3></a>
+      </div>
+    </div>
+		<h2>Videos</h2>
+		<div class="videos">
+		  <div class="video">
+		    <iframe src="https://www.youtube.com/embed/N2s0l3GrFbA" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+			<h3>Bayern Change Training Style</h3>
+			<p>Bayern Munich have adopted a new style and method to their everyday training sessions.</p>
+		  </div>
+		  <div class="video">
+		    <iframe src="https://www.youtube.com/embed/a_8bqGbxZXI" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+			<h3>Victorious Leverkusen</h3>
+			<p>Bayer Leverkusen defeat Hamburger SV in a tough counter by 3 goals to 1.</p>
+		  </div>
+		  <div class="video">
+		    <iframe src="https://www.youtube.com/embed/0_ZPPlbbTYc" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+			<h3>Wolfsburg Demolish Freiburg</h3>
+			<p>Wolfsburg absolutely demolish a poor, helpless Freiburg side by 3 goals to 0.</p>
+		  </div>
+		  <div class="video">
+		    <iframe src="https://www.youtube.com/embed/u9XIk_a58ws" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+			<h3>Super Mario Nets Brace</h3>
+			<p>Mario Gomez appears to be back in form as he nets a double against Freiburg.</p>
+		  </div>
+		</div>
+		<h2>Tables</h2>
+		<div class="tables">
+		  <table>
+		    <thead>
+			  <tr>
+          <th>Rank</th>
+			    <th>Team</th>
+			    <th title="matches played">MP</th>
+			    <th title="wins">W</th>
+			    <th title="draws">D</th>
+			    <th title="losses">L</th>
+			    <th title="goals for">F</th>
+			    <th title="goals against">A</th>
+			    <th title="goal difference">GD</th>
+          <th>Points</td>
+			  </tr>
+		    </thead>
+			<tbody>
+			  <tr>
+			    <td>1</td>
+			    <td><img src="images/teams/bundesliga/Bayern.png" width="25px" height="25px"> Bayern Munich</td>
+			    <td>17</td>
+			    <td>13</td>
+			    <td>3</td>
+			    <td>1</td>
+			    <td>40</td>
+			    <td>10</td>
+			    <td>+30</td>
+          <td>42</td>
+			  </tr>
+			  <tr>
+			    <td>2</td>
+			    <td><img src="images/teams/bundesliga/Leipzig.png" width="25px" height="25px"> RB Leipzig</td>
+			    <td>17</td>
+			    <td>12</td>
+			    <td>3</td>
+			    <td>2</td>
+			    <td>34</td>
+			    <td>15</td>
+			    <td>+19</td>
+          <td>39</td>
+			  </tr>
+			  <tr>
+			    <td>3</td>
+			    <td><img src="images/teams/bundesliga/Eintracht.png" width="25px" height="25px"> Eintracht Frankfurt </td>
+			    <td>18</td>
+			    <td>9</td>
+			    <td>5</td>
+			    <td>4</td>
+			    <td>23</td>
+			    <td>15</td>
+			    <td>+8</td>
+          <td>32</td>
+			  </tr>
+			  <tr>
+			    <td>4</td>
+			    <td><img src="images/teams/bundesliga/Hoffenheim.png" width="25px" height="25px"> TSG 1899 Hoffenheim</td>
+			    <td>17</td>
+			    <td>7</td>
+			    <td>10</td>
+			    <td>0</td>
+			    <td>30</td>
+			    <td>17</td>
+			    <td>+13</td>
+          <td>31</td>
+			  </tr>
+			  <tr>
+			    <td>5</td>
+			    <td><img src="images/teams/bundesliga/Dortmund.png" width="25px" height="25px"> Borussia Dortmund</td>
+			    <td>17</td>
+			    <td>8</td>
+			    <td>6</td>
+			    <td>3</td>
+			    <td>37</td>
+			    <td>20</td>
+			    <td>+17</td>
+          <td>30</td>
+			  </tr>
+			  <tr>
+			    <td>6</td>
+			    <td><img src="images/teams/bundesliga/Hertha.png" width="25px" height="25px"> Hertha BSC</td>
+			    <td>17</td>
+			    <td>9</td>
+			    <td>3</td>
+			    <td>5</td>
+			    <td>25</td>
+			    <td>19</td>
+			    <td>+6</td>
+          <td>30</td>
+			  </tr>
+			  <tr>
+			    <td>7</td>
+			    <td><img src="images/teams/bundesliga/Koln.png" width="25px" height="25px"> FC Koln</td>
+			    <td>17</td>
+			    <td>7</td>
+			    <td>8</td>
+			    <td>3</td>
+			    <td>27</td>
+			    <td>16</td>
+			    <td>+11</td>
+          <td>26</td>
+			  </tr>
+			  <tr>
+			    <td>8</td>
+			    <td><img src="images/teams/bundesliga/Bayer-04.png" width="25px" height="25px"> Bayer 04</td>
+			    <td>17</td>
+			    <td>7</td>
+			    <td>3</td>
+			    <td>7</td>
+			    <td>26</td>
+			    <td>25</td>
+			    <td>+1</td>
+          <td>24</td>
+			  </tr>
+			  <tr>
+			    <td>9</td>
+			    <td><img src="images/teams/bundesliga/Freiburg.png" width="25px" height="25px"> SC Freiburg</td>
+			    <td>17</td>
+			    <td>7</td>
+			    <td>2</td>
+			    <td>8</td>
+			    <td>22</td>
+			    <td>29</td>
+			    <td>-7</td>
+          <td>23</td>
+			  </tr>
+			  <tr>
+			    <td>10</td>
+			    <td><img src="images/teams/bundesliga/Schalke.png" width="25px" height="25px"> FC Shalke 04</td>
+			    <td>18</td>
+			    <td>6</td>
+			    <td>3</td>
+			    <td>9</td>
+			    <td>21</td>
+			    <td>20</td>
+			    <td>+1</td>
+          <td>21</td>
+			  </tr>
+			  <tr>
+			    <td>11</td>
+			    <td><img src="images/teams/bundesliga/Mainz.png" width="25px" height="25px"> FSV Mainz 05</td>
+			    <td>17</td>
+			    <td>6</td>
+			    <td>3</td>
+			    <td>8</td>
+			    <td>26</td>
+			    <td>30</td>
+			    <td>-4</td>
+          <td>21</td>
+			  </tr>
+			  <tr>
+			    <td>12</td>
+			    <td><img src="images/teams/bundesliga/Augsburg.png" width="25px" height="25px"> FC Augsburg</td>
+			    <td>18</td>
+			    <td>5</td>
+			    <td>6</td>
+			    <td>7</td>
+			    <td>15</td>
+			    <td>20</td>
+			    <td>-5</td>
+          <td>21</td>
+			  </tr>
+			  <tr>
+			    <td>13</td>
+			    <td><img src="images/teams/bundesliga/Wolfsburg.png" width="25px" height="25px"> VLF Wolfsburg</td>
+			    <td>18</td>
+			    <td>5</td>
+			    <td>4</td>
+			    <td>9</td>
+			    <td>17</td>
+			    <td>26</td>
+			    <td>-9</td>
+          <td>19</td>
+			  </tr>
+			  <tr>
+			    <td>14</td>
+			    <td><img src="images/teams/bundesliga/Monchengladbach.png" width="25px" height="25px"> Borussia Monchengladbach</td>
+			    <td>17</td>
+			    <td>4</td>
+			    <td>5</td>
+			    <td>8</td>
+			    <td>15</td>
+			    <td>25</td>
+			    <td>-10</td>
+          <td>17</td>
+			  </tr>
+			  <tr>
+			    <td>15</td>
+			    <td><img src="images/teams/bundesliga/Werder.png" width="25px" height="25px"> SV Werder Bremen</td>
+			    <td>18</td>
+			    <td>4</td>
+			    <td>4</td>
+			    <td>10</td>
+			    <td>22</td>
+			    <td>38</td>
+			    <td>-16</td>
+          <td>16</td>
+			  </tr>
+        <tr>
+			    <td>16</td>
+			    <td><img src="images/teams/bundesliga/Ingolstadt.png" width="25px" height="25px"> FC Ingolstadt 04</td>
+			    <td>18</td>
+			    <td>4</td>
+			    <td>3</td>
+			    <td>11</td>
+			    <td>17</td>
+			    <td>29</td>
+			    <td>-12</td>
+          <td>15</td>
+			  </tr>
+			  <tr>
+			    <td>17</td>
+			    <td><img src="images/teams/bundesliga/Hamburger-SV.png" width="25px" height="25px"> Hamburger SV</td>
+			    <td>18</td>
+			    <td>3</td>
+			    <td>4</td>
+			    <td>11</td>
+			    <td>15</td>
+			    <td>35</td>
+			    <td>-20</td>
+          <td>13</td>
+			  </tr>
+			  <tr>
+			    <td>18</td>
+			    <td><img src="images/teams/bundesliga/Darmstadt.png" width="25px" height="25px"> SV Darmstadt 98</td>
+			    <td>18</td>
+			    <td>2</td>
+			    <td>3</td>
+			    <td>13</td>
+			    <td>12</td>
+			    <td>36</td>
+			    <td>-24</td>
+          <td>9</td>
+			  </tr>
+			</tbody>
+		  </table>
+		<div>
+	  </section>
+    <aside id="search">
+          <h3>This League's Title</h3>
+          <br>
+          <div class="title">
+    	    <img id="title-image" src="images/titles/bundesliga.jpg" width="150px" height="150px">
+    		<div class="title-description">
+    		  <p>The German football champions are the annual winners of the highest association football competition
+    		  in Germany. The team that finishes top of the Bundesliga will crowned champions with this exemplary trophy.</p>
+    		</div>
+    	  </div>
+    </aside>
+	</main>
+
+  <footer>
+    <h4>Share Sho Football League News</h4>
+    <div id="share" class="flexbox"></div>
+  </footer>
+
+	<!-- scripts -->
+	<script type="text/javascript" src="scripts/animations.js"></script>
+  <script type="text/javascript" src="scripts/social-media.js"></script>
+  </body>
+</html>
