@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Sho Football League News</title>
+	<meta name="description" content="Get the latest in football news from the top leagues around the world.">
+	<!-- responsive meta tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab" rel="stylesheet">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script
+  <!-- social media sharing plugin -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="jssocials-1.4.0/jssocials-theme-plain.css">
+  <script src="jssocials-1.4.0/jssocials.min.js"></script>
+	<!-- styles -->
+	<link type="text/css" rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div class="news-bulletin">
+      <div class="container flexbox scroll-animation">
+        <p>Fans Throw Flares During Match...<a href="articles/palermo-woes.html">read more at palermo-woes.html</a></p>
+        <p>Bayern Dominates...<a href="articles/dominant-bayern.html">read more at dominant-bayern.html</a></p>
+        <p>Messi Scores Brilliant Goal...<a href="articles/messi-overhead-screamer.html">read more at messi-overhead-screamer.html</a></p>
+        <p>Liverpool Loans Out Markovic...<a href="articles/markovic-joins-hull.html">read more at markovic-joins-hull.html</a></p>
+        <p>Ronaldo Sustains Injury...<a href="articles/ronaldo-ankle-injury.html">read more at ronaldo-ankle-injury.html</a></p>
+      </div>
+    </div>
+	<header style="background-image: url('images/premier-league.jpg')">
+	  <img id="logo" src="images/logo3.png" width="800px" alt="Sho Football League News">
+	  <h2>Get the latest in news from the Barclay's Premier League, Bundesliga, Serie A, and La Liga.</h2>
+	</header>
+	<nav>
+      <ul class="flexbox">
+		<div class="nav-left">
+	      <a href="index.html"><li>Home</li></a>
+          <a href="la-liga.html"><li>La Liga</li></a>
+          <a href="bundesliga.html"><li>Bundesliga</li></a>
+	      <a href="serie-a.html"><li>Serie A</li></a>
+		  <a href="premier-league.html"><li id="active">Premier League</li></a>
+		</div>
+		<div class="nav-right">
+		  <a href="about-us.html"><li>About Us</li></a>
+		  <a href="contact.html"><li>Contact Us</li></a>
+		</div>
+	  </ul>
+	</nav>
+  <nav class="mobile-nav flexbox">
+        <p id="nav-text">MENU</p>
+        <div class="mobile-nav-buttons">
+            <p class="close-nav">X</p>
+            <p class="main-menu" id="active-tab" onclick="changeTab(this)">Main Menu</p>
+            <p class="league-leaders" onclick="changeTab(this)">League Leaders</p>
+			<p class="more" onclick="changeTab(this)">More</p>
+        </div>
+        <ul class="nav-links flexbox">
+            <a href="index.html">
+                <li>HOME</li>
+            </a>
+            <a href="la-liga.html">
+                <li>LA LIGA</li>
+            </a>
+            <a href="bundesliga.html">
+                <li>BUNDESLIGA</li>
+            </a>
+            <a href="serie-a.html">
+                <li>SERIE A</li>
+            </a>
+            <a href="premier-league.html">
+                <li id="active">PREMIER LEAGUE</li>
+            </a>
+        </ul>
+		<ul class="more-links flexbox">
+			<a href="about-us.html">
+                <li>ABOUT US</li>
+            </a>
+            <a href="contact.html">
+                <li>CONTACT US</li>
+			</a>
+		</ul>
+        <div class="mobile-search flexbox">
+            <a href="clubs/chelsea.html">
+                <li>CHELSEA</li>
+            </a>
+            <a href="clubs/juventus.html">
+                <li>JUVENTUS</li>
+			</a>
+			<a href="clubs/madrid.html">
+                <li>MADRID</li>
+            </a>
+            <a href="clubs/bayern.html">
+                <li>BAYERN</li>
+			</a>
+        </div>
+    </nav>
+	<main class="flexbox">
+	  <section id="new-stories">
+		<h2>Premier League News</h2>
+		<div id="main-story">
+		  <h3>The Rise and Fall of The Foxes</h3>
+		  <img src="http://images.football.co.uk/750x417/c2784cb92ea36d104875cc7c233a2984.jpg" alt="an image you choose to represent the article" width="700px" height="400px">
+		  <p>Leicester City celebrated their coronation as Premier League champions last season. This was the first title in
+      their 132-year history with victory over Everton on a day of elation at the King Power Stadium.</p>
+		  <a href="articles/the-rise-and-fall-of-the-foxes.html"><button class="read-more">Read more</button></a>
+        </div>
+	    <div id="stories" class="flexbox">
+		  <div class="story">
+		    <h3>Giroud's Schintilating Form</h3>
+        <img src="http://westwoodonesports.com/wp-content/uploads/2016/05/Giroud-800.jpg" alt="an image you choose to represent the article" width="300px" height="200px">
+        <p>Olivier Giroud’s goal scoring form is back on the rise as he is determined to fire Arsenal to their first
+        premiership crown in 12 years. Giroud states "The Premier League is my main target so after when I will win it
+        one day, why not, you never know."</p>
+			  <a href="articles/girouds-schintilating-form.html"><button class="read-more">Read more</button></a>
+		  </div>
+		  <div class="story">
+			  <h3>Coutinho Suffers Knee Injury</h3>
+        <img src="http://images.latintimes.com/sites/latintimes.com/files/styles/large/public/2014/04/28/barclays-premier-league-2013-2014.jpg" alt="an image you choose to represent the article" width="300px" height="200px">
+        <p>Phillipe Coutinho is set to miss four weeks of playing time as he has sustained a heavy knock in training on
+        his left knee. The injury sustained was caused by a heavy challenge from team mate Alberto Moreno.</p>
+			  <a href="articles/coutinho-knee-injury.html"><button class="read-more">Read more</button></a>
+		  </div>
+      <div class="story">
+			  <h3>Chelsea Flying</h3>
+        <img src="http://cdnau.ibtimes.com/sites/au.ibtimes.com/files/styles/v2_article_large/public/2016/01/04/crystal-palace-v-chelsea-barclays-premier-league.jpg" alt="an image you choose to represent the article" width="300px" height="200px">
+			  <p>Chelsea are flying in the league at the moment, Conte's switch to the 3-5-2 system has proved to be dividend
+        as they beat Hull City by 2 goals to 0.</p>
+			  <a href="articles/chelsea-flying.html"><button class="read-more">Read more</button></a>
+		  </div>
+      <div class="story">
+			  <h3>Markovic Joins Hull from Liverpool On Loan</h3>
+        <img src="http://e.deportes.americadigital.pe/ima/0/0/3/3/8/338841/790x495.jpg" alt="an image you choose to represent the article" width="300px" height="200px">
+		    <p>Lazar Markovic has joined Premier League strugglers Hull City on loan until the end of the season.</p>
+			  <a href="articles/markovic-joins-hull.html"><button class="read-more">Read more</button></a>
+	    </div>
+    </div>
+
+	    <h2>Fixtures</h2>
+		<div class="fixtures">
+		  <div class="fixture">
+		    <h3>Tuesday 31st January 2017</h3>
+		    <p class="flexbox">
+			  <time>14:45</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Arsenal.png" width="25px" height="25px">Arsenal</span>
+		      vs
+			  <span class="team">Watford<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Watford.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>14:45</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Bournemouth.png" width="25px" height="25px">Bournemouth</span>
+		      vs
+			  <span class="team">Crystal Palace<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Crystal-Palace.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>14:45</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Burnley.png" width="25px" height="25px">Burnley</span>
+		      vs
+			  <span class="team">Leicester<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Leicester-City.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>14:45</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Middlesbrough.png" width="25px" height="25px">Middlesbrough</span>
+		      vs
+			  <span class="team">West Brom<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/West-Bromwich-Albion.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>14:45</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Sunderland.png" width="25px" height="25px">Sunderland</span>
+		      vs
+			  <span class="team">Spurs<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Tottenham.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>14:45</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Swansea-City.png" width="25px" height="25px">Swansea</span>
+		      vs
+			  <span class="team">Southampton<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Southampton.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>15:00</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Liverpool.png" width="25px" height="25px">Liverpool</span>
+		      vs
+			  <span class="team">Chelsea<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Chelsea.png" width="25px" height="25px"></span>
+			</p>
+		  </div>
+		  <div class="fixture">
+		    <h3>Wednesday 1st February 2017</h3>
+		    <p class="flexbox">
+			  <time>14:45</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/West-Ham.png" width="25px" height="25px">West Ham</span>
+		      vs
+			  <span class="team">Man City<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Manchester-City.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>15:00</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Manchester-United.png" width="25px" height="25px">Man Utd</span>
+		      vs
+			  <span class="team">Hull City<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Hull-City.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>14:45</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Stoke.png" width="25px" height="25px">Stoke City</span>
+		      vs
+			  <span class="team">Everton<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Everton.png" width="25px" height="25px"></span>
+			</p>
+		  </div>
+		  <div class="fixture">
+		    <h3>Saturday 4th February 2017</h3>
+			<p class="flexbox">
+			  <time>07:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Chelsea.png" width="25px" height="25px">Chelsea</span>
+		      vs
+			  <span class="team">Arsenal<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Arsenal.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>10:00</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Crystal-Palace.png" width="25px" height="25px">Crystal Palace</span>
+		      vs
+			  <span class="team">Sunderland<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Sunderland.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>10:00</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Everton.png" width="25px" height="25px">Everton</span>
+		      vs
+			  <span class="team">Bournemouth<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Bournemouth.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>10:00</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Hull-City.png" width="25px" height="25px">Hull City</span>
+		      vs
+			  <span class="team">Liverpool<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Liverpool.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>10:00</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Southampton.png" width="25px" height="25px">Southampton</span>
+		      vs
+			  <span class="team">West Ham<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/West-Ham.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>10:00</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Watford.png" width="25px" height="25px">Watford</span>
+		      vs
+			  <span class="team">Burnley<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Burnley.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>10:00</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/West-Bromwich-Albion.png" width="25px" height="25px">West Brom</span>
+		      vs
+			  <span class="team">Stoke City<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Stoke.png" width="25px" height="25px"></span>
+			</p>
+			<p class="flexbox">
+			  <time>12:30</time>
+		      <span class="team"><img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Tottenham.png" width="25px" height="25px">Spurs</span>
+		      vs
+			  <span class="team">Middlesbrough<img alt="the football team's logo" class="team-logo" src="images/teams/premier-league/Middlesbrough.png" width="25px" height="25px"></span>
+			</p>
+		  </div>
+		</div>
+		<h2>Match Results</h2>
+		<div class="results">
+		  <h3>Sunday 22nd January 2017</h3>
+		  <div class="result flexbox">
+		    <div class="team">
+			  <img src="images/teams/premier-league/Chelsea.png" width="150px" height="150px">
+			  <p>Chelsea</p>
+		    </div>
+		    <div class="score">
+			  <p>2 - 0</p>
+			</div>
+			<div class="team">
+			  <img src="images/teams/premier-league/Hull-City.png" width="150px" height="150px">
+			  <p>Hull City</p>
+		    </div>
+	      </div>
+		  <div class="result flexbox">
+			<div class="team">
+			  <img src="images/teams/premier-league/Arsenal.png" width="150px" height="150px">
+			  <p>Arsenal</p>
+			</div>
+			<div class="score">
+		      <p>2 - 1</p>
+			</div>
+			<div class="team">
+			  <img src="images/teams/premier-league/Burnley.png" width="150px" height="150px">
+			  <p>Burnley</p>
+			</div>
+		  </div>
+		  <div class="result flexbox">
+		    <div class="team">
+			  <img src="images/teams/premier-league/Southampton.png" width="150px" height="150px">
+			  <p>Southapmton</p>
+		    </div>
+		    <div class="score">
+			  <p>3 - 0</p>
+			</div>
+			<div class="team">
+			  <img src="images/teams/premier-league/Leicester-City.png" width="150px" height="150px">
+			  <p>Leicester</p>
+		    </div>
+	      </div>
+		</div>
+		<h2>Teams</h2>
+		<!-- carousel of the different teams -->
+    <figure class="teams flexbox">
+		  <div class="scrollLeft scroll" onclick="carouselLeft(this)">Prev</div>
+	      <div class="carouselContainer">
+			<ul class="carousel" id="carousel-premier-league">
+			  <li class="flexbox">
+			    <div class="team">
+				    <img src="images/teams/premier-league/Chelsea.png" width="130px" height="130px"><p>Chelsea FC</p>
+				  </div>
+				<div class="team">
+				  <img src="images/teams/premier-league/Arsenal.png" width="130px" height="130px"><p>Arsenal FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/premier-league/Manchester-United.png" width="130px" height="130px"><p>Manchester United FC</p>
+				</div>
+		      </li>
+		      <li class="flexbox">
+				<div class="team">
+				  <img src="images/teams/premier-league/Manchester-City.png" width="130px" height="130px"><p>Manchester City FC</p>
+				</div>
+			    <div class="team">
+				  <img src="images/teams/premier-league/Tottenham.png" width="130px" height="130px"><p>Tottenham Hotspurs FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/premier-league/Leicester-City.png" width="130px" height="130px"><p>Leicester City FC</p>
+				</div>
+			  </li>
+			  <li class="flexbox">
+			    <div class="team">
+				  <img src="images/teams/premier-league/Everton.png" width="130px" height="130px"><p>Everton FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/premier-league/West-Ham.png" width="130px" height="130px"><p>West Ham United FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/premier-league/Liverpool.png" width="130px" height="130px"><p>Liverpool FC</p>
+				</div>
+			  </li>
+			  <li class="flexbox">
+			    <div class="team">
+				  <img src="images/teams/premier-league/West-Bromwich-Albion.png" width="130px" height="130px"><p>West Bromwich Albion FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/premier-league/Southampton.png" width="130px" height="130px"><p>Southampton FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/premier-league/Bournemouth.png" width="130px" height="130px"><p>AFC Bournemouth</p>
+				</div>
+		      </li>
+		      <li class="flexbox">
+				<div class="team">
+				  <img src="images/teams/premier-league/Burnley.png" width="130px" height="130px"><p>Burnley FC</p>
+				</div>
+			    <div class="team">
+				  <img src="images/teams/premier-league/Watford.png" width="130px" height="130px"><p>Watford FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/premier-league/Middlesbrough.png" width="130px" height="130px"><p>Middlesbrough FC</p>
+				</div>
+			  </li>
+			  <li>
+			    <div class="team">
+				  <img src="images/teams/premier-league/Swansea-City.png" width="130px" height="130px"><p>Swansea City AFC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/premier-league/Crystal-Palace.png" width="130px" height="130px"><p>Crystal Palace FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/premier-league/Hull-City.png" width="130px" height="130px"><p>Hull City AFC</p>
+				</div>
+			  </li>
+			  <li>
+			    <div class="team">
+				  <img src="images/teams/premier-league/Stoke.png" width="130px" height="130px"><p>Stoke City FC</p>
+				</div>
+				<div class="team">
+				  <img src="images/teams/premier-league/Sunderland.png" width="130px" height="130px"><p>Sunderland AFC</p>
+				</div>
+			  </li>
+			</ul>
+		  </div>
+		  <div class="scrollRight scroll" onclick="carouselRight(this)">Next</div>
+		  <!-- these will only display on mobile devices -->
+		  <div class="mobile-scroll-buttons">
+		    <div class="mobile-scroll-left mobile-scroll" onclick="carouselLeft(this)">Prev</div>
+		    <div class="mobile-scroll-right mobile-scroll" onclick="carouselRight(this)">Next</div>
+		  </div>
+        </figure>
+
+        <h2>The League Leader</h2>
+        <div class="league-leader">
+         <div class="team">
+            <a href="clubs/chelsea.html"><img src="images/teams/premier-league/Chelsea.png" width="200px" height="200px">
+            <h3>CHELSEA FC</h3></a>
+          </div>
+        </div>
+
+		<h2>Videos</h2>
+		<div class="videos">
+		  <div class="video">
+		    <iframe src="https://www.youtube.com/embed/HU4wNS7bT8w" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+			<h3>Highlights from Chelsea's Victory Against Man United.</h3>
+			<p>Chelsea defeat Manchester United in thrilling fashion at Stamford Bridge. Chelsea were victorious by 4 goals to 0.</p>
+		  </div>
+		  <div class="video">
+		    <iframe src="https://www.youtube.com/embed/aE6TgEatgpw" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+			<h3>Highlights of Stokes Downfall Against Chelsea.</h3>
+			<p>Chelsea thrash Stoke City by 4 goals to 2 in a quite brilliant encounter.</p>
+		  </div>
+		  <div class="video">
+		    <iframe src="https://www.youtube.com/embed/AYVP_6WQdMk" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+			<h3>Stokes Training Regime</h3>
+			<p>Stoke City have an incredible training session ahead of the 2016/2017 season.</p>
+		  </div>
+		  <div class="video">
+		    <iframe src="https://www.youtube.com/embed/AKx8LOOREeM" width="100%" height="250px" frameborder="0" allowfullscreen></iframe>
+			<h3>Amazing Firmino Skills and Goals</h3>
+			<p>Liverpool forward Roberto Firmino showcases his talents, skills and goals in this video.</p>
+		  </div>
+		</div>
+		<h2>Tables</h2>
+		<div class="tables">
+		  <table>
+		    <thead>
+			  <tr>
+                <th>Rank</th>
+			    <th>Team</th>
+			    <th title="matches played">MP</th>
+			    <th title="wins">W</th>
+			    <th title="draws">D</th>
+			    <th title="losses">L</th>
+			    <th title="goals for">F</th>
+			    <th title="goals against">A</th>
+			    <th title="goal difference">GD</th>
+			    <th>Points</th>
+			  </tr>
+		    </thead>
+			<tbody>
+			  <tr>
+			    <td>1</td>
+			    <td><img src="images/teams/premier-league/Chelsea.png" width="25px" height="25px"> Chelsea</td>
+			    <td>22</td>
+			    <td>18</td>
+			    <td>1</td>
+			    <td>3</td>
+			    <td>47</td>
+			    <td>15</td>
+			    <td>+32</td>
+			    <td>55</td>
+			  </tr>
+			  <tr>
+			    <td>2</td>
+			    <td><img src="images/teams/premier-league/Arsenal.png" width="25px" height="25px"> Arsenal</td>
+			    <td>22</td>
+			    <td>14</td>
+			    <td>5</td>
+			    <td>3</td>
+			    <td>50</td>
+			    <td>23</td>
+			    <td>+27</td>
+			    <td>47</td>
+			  </tr>
+			  <tr>
+			    <td>3</td>
+			    <td><img src="images/teams/premier-league/Tottenham.png" width="25px" height="25px"> Tottenham Hotspurs</td>
+			    <td>22</td>
+			    <td>13</td>
+			    <td>7</td>
+				<td>2</td>
+			    <td>45</td>
+			    <td>16</td>
+			    <td>+29</td>
+			    <td>46<td>
+			  </tr>
+			  <tr>
+			    <td>4</td>
+			    <td><img src="images/teams/premier-league/Liverpool.png" width="25px" height="25px"> Liverpool</td>
+			    <td>22</td>
+			    <td>13</td>
+			    <td>6</td>
+			    <td>3</td>
+			    <td>51</td>
+			    <td>27</td>
+			    <td>+24</td>
+			    <td>45</td>
+			  </tr>
+			  <tr>
+			    <td>5</td>
+			    <td><img src="images/teams/premier-league/Manchester-City.png" width="25px" height="25px"> Manchester City</td>
+			    <td>22</td>
+			    <td>13</td>
+			    <td>4</td>
+			    <td>5</td>
+			    <td>43</td>
+			    <td>28</td>
+			    <td>+15</td>
+			    <td>43</td>
+			  </tr>
+			  <tr>
+			    <td>6</td>
+			    <td><img src="images/teams/premier-league/Manchester-United.png" width="25px" height="25px"> Manchester United</td>
+			    <td>22</td>
+				<td>11</td>
+			    <td>8</td>
+			    <td>3</td>
+			    <td>33</td>
+			    <td>21</td>
+			    <td>+12</td>
+			    <td>41</td>
+			  </tr>
+			  <tr>
+			    <td>7</td>
+			    <td><img src="images/teams/premier-league/Everton.png" width="25px" height="25px"> Everton</td>
+			    <td>22</td>
+			    <td>10</td>
+			    <td>6</td>
+			    <td>6</td>
+			    <td>33</td>
+			    <td>23</td>
+			    <td>+10</td>
+			    <td>36</td>
+			  </tr>
+			  <tr>
+			    <td>8</td>
+			    <td><img src="images/teams/premier-league/West-Bromwich-Albion.png" width="25px" height="25px"> West Bromwich Albion</td>
+			    <td>22</td>
+			    <td>9</td>
+			    <td>5</td>
+			    <td>8</td>
+			    <td>30</td>
+			    <td>28</td>
+			    <td>+2</td>
+          <td>32</td>
+			  </tr>
+			  <tr>
+			    <td>9</td>
+			    <td><img src="images/teams/premier-league/Stoke.png" width="25px" height="25px"> Stoke City</td>
+			    <td>22</td>
+			    <td>7</td>
+			    <td>7</td>
+			    <td>8</td>
+			    <td>28</td>
+			    <td>34</td>
+			    <td>-6</td>
+          <td>28</td>
+			  </tr>
+			  <tr>
+			    <td>19</td>
+			    <td><img src="images/teams/premier-league/West-Ham.png" width="25px" height="25px"> West Ham United</td>
+			    <td>22</td>
+			    <td>8</td>
+			    <td>4</td>
+			    <td>10</td>
+			    <td>29</td>
+			    <td>36</td>
+			    <td>-7</td>
+          <td>28</td>
+			  </tr>
+			  <tr>
+			    <td>11</td>
+			    <td><img src="images/teams/premier-league/Southampton.png" width="25px" height="25px"> Southampton</td>
+			    <td>22</td>
+			    <td>7</td>
+			    <td>6</td>
+			    <td>9</td>
+			    <td>22</td>
+			    <td>26</td>
+			    <td>-4</td>
+          <td>27</td>
+			  </tr>
+			  <tr>
+			    <td>12</td>
+			    <td><img src="images/teams/premier-league/Bournemouth.png" width="25px" height="25px"> Bournemouth</td>
+			    <td>22</td>
+			    <td>7</td>
+			    <td>5</td>
+			    <td>10</td>
+			    <td>32</td>
+			    <td>39</td>
+			    <td>-7</td>
+          <td>26</td>
+			  </tr>
+			  <tr>
+			    <td>13</td>
+			    <td><img src="images/teams/premier-league/Burnley.png" width="25px" height="25px"> Burnley</td>
+			    <td>22</td>
+			    <td>8</td>
+			    <td>2</td>
+			    <td>12</td>
+			    <td>24</td>
+			    <td>33</td>
+			    <td>-9</td>
+          <td>26</td>
+			  </tr>
+			  <tr>
+			    <td>14</td>
+			    <td><img src="images/teams/premier-league/Watford.png" width="25px" height="25px"> Watford</td>
+			    <td>22</td>
+			    <td>6</td>
+			    <td>6</td>
+			    <td>10</td>
+			    <td>25</td>
+          <td>38</td>
+			    <td>-13</td>
+			    <td>24</td>
+			  </tr>
+			  <tr>
+			    <td>15</td>
+			    <td><img src="images/teams/premier-league/Leicester-City.png" width="25px" height="25px"> Leicester City</td>
+			    <td>22</td>
+			    <td>5</td>
+			    <td>6</td>
+			    <td>11</td>
+			    <td>24</td>
+			    <td>37</td>
+			    <td>-13</td>
+          <td>21</td>
+			  </tr>
+			  <tr>
+			    <td>16</td>
+			    <td><img src="images/teams/premier-league/Middlesbrough.png" width="25px" height="25px"> Middlesbrough</td>
+			    <td>22</td>
+			    <td>4</td>
+			    <td>8</td>
+			    <td>10</td>
+			    <td>18</td>
+			    <td>25</td>
+			    <td>-7</td>
+          <td>20</td>
+			  </tr>
+			  <tr>
+			    <td>17</td>
+			    <td><img src="images/teams/premier-league/Swansea-City.png" width="25px" height="25px"> Swansea City</td>
+			    <td>22</td>
+			    <td>5</td>
+			    <td>3</td>
+			    <td>14</td>
+			    <td>26</td>
+			    <td>51</td>
+			    <td>-25</td>
+          <td>18</td>
+			  </tr>
+			  <tr>
+			    <td>18</td>
+			    <td><img src="images/teams/premier-league/Crystal-Palace.png" width="25px" height="25px"> Crystal Palace</td>
+			    <td>22</td>
+			    <td>4</td>
+			    <td>4</td>
+			    <td>14</td>
+			    <td>30</td>
+			    <td>41</td>
+			    <td>-11</td>
+          <td>16</td>
+			  </tr>
+			  <tr>
+			    <td>19</td>
+			    <td><img src="images/teams/premier-league/Hull-City.png" width="25px" height="25px"> Hull City</td>
+			    <td>22</td>
+			    <td>4</td>
+			    <td>4</td>
+			    <td>14</td>
+			    <td>20</td>
+			    <td>47</td>
+			    <td>-27</td>
+          <td>16</td>
+			  </tr>
+			  <tr>
+			    <td>20</td>
+			    <td><img src="images/teams/premier-league/Sunderland.png" width="25px" height="25px"> Sunderland</td>
+			    <td>22</td>
+			    <td>4</td>
+			    <td>3</td>
+			    <td>15</td>
+			    <td>20</td>
+			    <td>42</td>
+			    <td>-22</td>
+          <td>15</td>
+			  </tr>
+			</tbody>
+		  </table>
+		<div>
+	  </section>
+    <aside id="search">
+          <h3>This League's Title</h3>
+          <br>
+          <div class="title">
+    				<img id="title-image" src="images/titles/premier-league.jpg" width="150px" height="150px">
+    				<div class="title-description">
+    					<p>The 2016–17 Premier League is the 25th season of the Premier League since its inception.
+    					The team that finishes top of the Premier League will be crowned English champions with this
+    					prestigious trophy.</p>
+    				</div>
+    			</div>
+    </aside>
+	</main>
+
+  <footer>
+    <h4>Share Sho Football League News</h4>
+    <div id="share" class="flexbox"></div>
+  </footer>
+
+	<!-- scripts -->
+	<script type="text/javascript" src="scripts/animations.js"></script>
+  <script type="text/javascript" src="scripts/social-media.js"></script>
+  </body>
+</html>
