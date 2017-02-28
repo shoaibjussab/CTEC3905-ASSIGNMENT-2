@@ -1,0 +1,98 @@
+main {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: gainsboro;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5%  0%;
+}
+
+section h1 {
+  text-align: center;
+  padding: 2%;
+}
+
+section img {
+  display: block;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.text {
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+section p {
+  padding: 50px 50px;
+  background-color: snow;
+  border-radius: 5px;
+}
+
+/* media queries */
+
+
+/* mobile phones portrait */
+@media only screen and (max-width: 414px) {
+
+  html {
+    width: 100vw;
+	overflow-x: hidden;
+  }
+
+  main {
+	width: 100%;
+    display: block;
+	background-color: gainsboro;
+  }
+
+  section {
+    width: 95%;
+	padding: 5% 0% 10% 0%;
+  }
+
+  section img {
+	  height: 200px;
+	  width: 95%;
+  }
+
+  section p {
+	margin-bottom: 10%;
+	padding: 20px 10px;
+  }
+
+}
+
+/*mobile phones landscape and ipad portrait*/
+@media handheld, (orientation: landscape) and (max-width: 736px) {
+  .news-bulletin p{
+	margin: 0% 2%;
+  }
+  html {
+    overflow-x: hidden;
+  }
+
+  section {
+	width: 100%;
+  }
+
+  section img {
+	width: 500px;
+    height: 250px;
+	display: block !important;
+    margin: 0 auto;
+	text-align: center;
+  }
+
+  section p  {
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+
+
+}
