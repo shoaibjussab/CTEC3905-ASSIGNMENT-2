@@ -1,0 +1,76 @@
+main section {
+  padding: 50px 10px;
+}
+main h1{
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Oswald;
+  font-size: 2.5em;
+}
+
+main h3 {
+  padding: 5px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+	background-color: snow;
+	margin: 0 auto;
+	margin-top: 50px;
+	max-width: 800px;
+	text-align: center;
+	padding: 50px 0px;
+	border-radius: 5px;
+}
+
+form p {
+	margin: 10px 0px;
+	padding: 10px 0px;
+	display: inline-block;
+	width: 300px;
+}
+
+form p * {
+	display: inline !important;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+form p label {
+	width: 50%;
+}
+
+form input[type="text"], form textarea, form select{
+	border: none;
+	border-bottom: 3px solid mediumseagreen;
+	background-color: snow;
+	padding: 5px;
+	width: 50%;
+}
+
+form textarea {
+	font-family: sans-serif;
+}
+
+#submit-form, #clear-form {
+  background-color: mediumseagreen;
+  padding: 10px;
+  border: 2px solid transparent;
+  display:block;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: snow;
+}
+
+#error-message {
+	display: none;
+	color: crimson;
+	background-color: mistyrose;
+	width: 80%;
+	margin: 0 auto;
+}
