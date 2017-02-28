@@ -17,14 +17,13 @@ section h1 {
 
 section img {
   display: block;
-  height: 250px;
+  height: 300px;
   margin: 0 auto;
   margin-bottom: 5%;
 }
 
 .text {
 	max-height: 300px;
-	overflow-y: scroll;
 }
 
 section p {
