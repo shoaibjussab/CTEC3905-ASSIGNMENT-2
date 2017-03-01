@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sho Football League News - Bayern Munich FC</title>
+    <meta name="description" content="Get the latest in Football news from the top leagues around the world">
+    <!-- responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- styles -->
+    <link type="text/css" rel="stylesheet" href="../styles/style.css">
+    <link type="text/css" rel="stylesheet" href="../styles/teams.css">
+    <!-- social media sharing plugin -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../jssocials-1.4.0/jssocials-theme-plain.css">
+    <script src="../jssocials-1.4.0/jssocials.min.js"></script>
+
+    <!-- INLINE STYLE TO CHANGE ACCENT COLOR ON EACH TEAM PAGE -->
+    <!-- BAYERN ACCENT COLOR IS: #ed1248 -->
+
+    <style>
+        nav {
+            background-color: #ed1248;
+        }
+
+        #search a, #search button {
+            background-color: #ed1248;
+        }
+
+        .mobile-nav-buttons {
+            background-color: #ed1248;
+        }
+
+        /* highlights the active link in the mobile nav */
+        .mobile-nav #active {
+            background-color: #ed1248;
+        }
+
+        .read-more, .scroll, .mobile-scroll, #submit-form, #clear-form {
+            background-color: #ed1248;
+        }
+
+        .read-more:hover, .scroll:hover, .mobile-scroll:hover, #submit-form:hover, #clear-form:hover {
+            background-color: snow;
+            border: 2px solid;
+            box-shadow: 0px 5px 5px 1px #ed1248;
+            color: #ed1248;
+        }
+
+        .player-card {
+          background-color: #ed1248;
+        }
+
+        .fixtures h3 {
+          background-color: #ed1248;
+        }
+    </style>
+
+</head>
+
+<body>
+  <div class="news-bulletin">
+    <div class="container flexbox scroll-animation">
+      <p>Fans Throw Flares During Match...<a href="../articles/palermo-woes.html">read more at palermo-woes.html</a></p>
+      <p>Bayern Dominates...<a href="../articles/dominant-bayern.html">read more at dominant-bayern.html</a></p>
+      <p>Messi Scores Brilliant Goal...<a href="../articles/messi-overhead-screamer.html">read more at messi-overhead-screamer.html</a></p>
+      <p>Liverpool Loans Out Markovic...<a href="../articles/markovic-joins-hull.html">read more at markovic-joins-hull.html</a></p>
+      <p>Ronaldo Sustains Injury...<a href="../articles/ronaldo-ankle-injury.html">read more at ronaldo-ankle-injury.html</a></p>
+    </div>
+  </div>
+    <header style="background-image: url('../images/squads/Bayern.jpg')">
+        <img src="../images/teams/bundesliga/Bayern.png" width="300px" height="300px" alt="Bayern Munich FC Logo">
+        <h1>Bayern Munich FC</h1>
+    </header>
+    <nav>
+        <ul class="flexbox">
+            <div class="nav-left">
+                <a href="../index.html">
+                    <li id=>Home</li>
+                </a>
+                <a href="../la-liga.html">
+                    <li>La Liga</li>
+                </a>
+                <a href="../bundesliga.html">
+                    <li>Bundesliga</li>
+                </a>
+                <a href="../serie-a.html">
+                    <li>Serie A</li>
+                </a>
+                <a href="../bundesliga.html">
+                    <li>Premier League</li>
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="../about-us.html">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact.html">
+                    <li>Contact Us</li>
+                </a>
+            </div>
+        </ul>
+    </nav>
+    <nav class="mobile-nav flexbox">
+        <p id="nav-text">MENU</p>
+        <div class="mobile-nav-buttons">
+            <p class="close-nav">X</p>
+            <p class="main-menu" id="active-tab" onclick="changeTab(this)">Main Menu</p>
+            <p class="league-leaders" onclick="changeTab(this)">League Leaders</p>
+			<p class="more" onclick="changeTab(this)">More</p>
+        </div>
+        <ul class="nav-links flexbox">
+            <a href="../index.html">
+                <li>HOME</li>
+            </a>
+            <a href="../la-liga.html">
+                <li>LA LIGA</li>
+            </a>
+            <a href="../bundesliga.html">
+                <li>BUNDESLIGA</li>
+            </a>
+            <a href="../serie-a.html">
+                <li>SERIE A</li>
+            </a>
+            <a href="../premier-league.html">
+                <li>PREMIER LEAGUE</li>
+            </a>
+        </ul>
+		<ul class="more-links flexbox">
+			<a href="../about-us.html">
+                <li>ABOUT US</li>
+            </a>
+            <a href="../contact.html">
+                <li>CONTACT US</li>
+			</a>
+		</ul> 
+        <div class="mobile-search flexbox">
+            <a href="madrid.html">
+                <li>MADRID</li>
+            </a>
+            <a href="bayern.html">
+                <li id="active">BAYERN</li>
+			</a>
+			<a href="juventus.html">
+                <li>JUVENTUS</li>
+			</a>
+			<a href="chelsea.html">
+                <li>CHELSEA</li>
+			</a>
+        </div>
+	  </nav>
+    <main class="flexbox">
+        <section id="new-stories">
+            <h2>Team History</h2>
+            <div class="club-history">
+                <p>Bayern Munich, or FC Bayern, is a German sports club based in Munich, Bavaria, Germany. It is best known for
+                its professional football team, which plays in the Bundesliga, the top tier of the German football league system.
+                The team colours are red and white, and the team crest shows the white and blue flag of Bavaria. Bayern Munich is
+                the most successful club in German football history, having won a record 26 national titles and 18 national cups.
+                FC Bayern are the current league leaders of the Bundesliga and are on course to win their 27th Bundesliga title.</p>
+                <br>
+                <p>FC Bayern was founded in 1900 by 11 football players, led by Franz John. Overall, Bayern has reached ten European
+                Cup/UEFA Champions League finals, most recently winning their fifth title in 2013 as part of a continental treble.
+                Bayern has also won one UEFA Cup, one European Cup Winners' Cup, one UEFA Super Cup, one FIFA Club World Cup and two
+                Intercontinental Cups, making it one of the most successful European clubs internationally. Since the formation of
+                the Bundesliga, Bayern has been the dominant club in German football with 26 titles and has won 8 of the last
+                12 titles.</p>
+            </div>
+            <h2>Squad</h2>
+            <div class="squads flexbox">
+
+                <div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/167495.png" width="125px" height="125px">
+                    <h3>1 Manuel Neuer</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 29</p>
+                        <p>Height: 6'4"</p>
+                        <p>Weight: 203lbs</p>
+                    </div>
+                </div>
+
+                <div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/186569.png" width="125px" height="125px">
+                    <h3>26 Sven Ulreich</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 27</p>
+                        <p>Height: 6'4"</p>
+                        <p>Weight: 285lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="https://www.irbbarcelona.org/sites/default/files/default_images/people.png" width="125px" height="125px">
+                    <h3>33 Enrico Caruso</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 17</p>
+                        <p>Height: - </p>
+                        <p>Weight: - </p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/107713.png" width="125px" height="125px">
+                    <h3>22 Tom Starke</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 34</p>
+                        <p>Height: 6'4"</p>
+                        <p>Weight: 216lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/197445.png" width="125px" height="125px">
+                    <h3>27 David Alaba</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Austria</p>
+						<p>Position: Defender</p>
+                        <p>Age: 23</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 168bs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/15/players/205069.png" width="125px" height="125px">
+                    <h3>18 Juan Bernat</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Defender</p>
+                        <p>Age: 22</p>
+                        <p>Height: 5'7"</p>
+                        <p>Weight: 148lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/183907.png" width="125px" height="125px">
+                    <h3>17 J&eacute;rome Boateng</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Defender</p>
+                        <p>Age: 27</p>
+                        <p>Height: 6'4"</p>
+                        <p>Weight: 198lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://st1.soccer365.ru/s1/players/14_251_14/15351.png" width="125px" height="125px">
+                    <h3>39 Nicolas Feldhahn</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Defender</p>
+                        <p>Age: 29</p>
+                        <p>Height: 6'2"</p>
+                        <p>Weight: 194lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://st1.soccer365.ru/s1/players/16_56_14/2212201.png" width="125px" height="125px">
+                    <h3>3 Marco Friedl</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Austria</p>
+						<p>Position: Defender</p>
+                        <p>Age: 17</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 172lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="https://pbs.twimg.com/profile_images/777140982009569281/fn0ynAHM.jpg" width="125px" height="125px">
+                    <h3>20 Felix Gotze</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Defender</p>
+                        <p>Age: 17</p>
+                        <p>Height: - </p>
+                        <p>Weight: - </p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/178603.png" width="125px" height="125px">
+                    <h3>5 Mats Hummels</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Defender</p>
+                        <p>Age: 27</p>
+                        <p>Height: 6'3"</p>
+                        <p>Weight: 203lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/121939.png" width="125px" height="125px">
+                    <h3>21 Lahm Philipp</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Defender</p>
+                        <p>Age: 23</p>
+                        <p>Height: 5'7"</p>
+                        <p>Weight: 146lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/15/players/168607.png" width="125px" height="125px">
+                    <h3>13 Rafina</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Brazil</p>
+						<p>Position: Defender</p>
+                        <p>Age: 30</p>
+                        <p>Height: 5'8"</p>
+                        <p>Weight: 150lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/189509.png" width="125px" height="125px">
+                    <h3>6 Thiago Alc&aacute;ntara</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 24</p>
+                        <p>Height: 5'9"</p>
+                        <p>Weight: 154lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/15/players/45197.png" width="125px" height="125px">
+                    <h3>14 Xabi Alonso</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 34</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 176lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/231228.png" width="125px" height="125px">
+                    <h3>40 Fabian Benko</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 17</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 163lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/231227.png" width="125px" height="125px">
+                    <h3>30 Niklas Dorsch</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 18</p>
+                        <p>Height: 5'9"</p>
+                        <p>Weight: 159lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/190483.png" width="125px" height="125px">
+                    <h3>11 Douglas Costa </h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Brazil</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 25</p>
+                        <p>Height: 5'7"</p>
+                        <p>Weight: 143lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/212622.png" width="125px" height="125px">
+                    <h3>32 Joshua Kimmich</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 20</p>
+                        <p>Height: 5'9"</p>
+                        <p>Weight: 154lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/177610.png" width="125px" height="125px">
+                    <h3>8 Javi Mart&iacute;nez</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 27</p>
+                        <p>Height: 6'3"</p>
+                        <p>Weight: 179lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/236004.png" width="125px" height="125px">
+                    <h3>38 Erdal Ozturk</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 19</p>
+                        <p>Height: 5'8"</p>
+                        <p>Weight: 137lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/156616.png" width="125px" height="125px">
+                    <h3>7 Rib&eacute;ry Franck</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: France</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 32</p>
+                        <p>Height: 5'7"</p>
+                        <p>Weight: 159lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/9014.png" width="125px" height="125px">
+                    <h3>10 Arjen Robben</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Netherlands</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 32</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 176lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/230767.png" width="125px" height="125px">
+                    <h3>35 Renato Sanches</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Portugal</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 18</p>
+                        <p>Height: 5'9"</p>
+                        <p>Weight: 154lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="https://www.irbbarcelona.org/sites/default/files/default_images/people.png" width="125px" height="125px">
+                    <h3>19 Meritan Shabani</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 18</p>
+                        <p>Height: - </p>
+                        <p>Weight: - </p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="https://www.irbbarcelona.org/sites/default/files/default_images/people.png" width="125px" height="125px">
+                    <h3>24 Timothy Tillman</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 17</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: - </p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/181872.png" width="125px" height="125px">
+                    <h3>23 Arturo Vidal</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Chile</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 18</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 165</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/15/players/213345.png" width="125px" height="125px">
+                    <h3>29 Kingsley Coman</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: France</p>
+						<p>Position: Forward</p>
+                        <p>Age: 19</p>
+                        <p>Height: 5'10"</p>
+                        <p>Weight: 157</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/188545.png" width="125px" height="125px">
+                    <h3>9 Robert Lewandowski</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Poland</p>
+						<p>Position: Forward</p>
+                        <p>Age: 27</p>
+                        <p>Height: 6'1"</p>
+                        <p>Weight: 174</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/189596.png" width="125px" height="125px">
+                    <h3>25 Thomas Muller</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Forward</p>
+                        <p>Age: 26</p>
+                        <p>Height: 6'1"</p>
+                        <p>Weight: 165</p>
+                    </div>
+                </div>
+				               
+            </div>
+            <h2>Table Position</h2>
+            <div class="table-position">
+              <h3 class="first">1st</h3>
+            </div>
+            <h2>Upcoming Fixtures</h2>
+            <div class="fixtures">
+              <h3>Februrary 2017</h3>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			     <time>Sat 11 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Ingolstadt.png" width="25px" height="25px">Ingolstadt</span>
+        		      vs
+        			    <span class="team">Bayern<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <div class="fixture">
+                <p class="flexbox">
+        			     <time>Weds 15 19:45</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px">Bayern</span>
+        		      vs
+        			    <span class="team">Arsenal<img alt="the football team's logo" class="team-logo" src="../images/teams/premier-league/Arsenal.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <div class="fixture">
+                <p class="flexbox">
+        			     <time>Sat  18 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Hertha.png" width="25px" height="25px">Hertha</span>
+        		      vs
+        			    <span class="team">Bayern<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <div class="fixture">
+                <p class="flexbox">
+                   <time>Sat 25 14:30</time>
+                  <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px">Bayern</span>
+                  vs
+                  <span class="team">Hamburger<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Hamburger-SV.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <h3>March 2017</h3>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			     <time>Sat 04 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Koln.png" width="25px" height="25px">Koln</span>
+        		      vs
+        			  <span class="team">Bayern<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			     <time>Tue 07 19:45</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/premier-league/Arsenal.png" width="25px" height="25px">Arsenal</span>
+        		      vs
+        			  <span class="team">Bayern<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			     <time>Sat 11 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px">Bayern</span>
+        		      vs
+        			    <span class="team">Frankfurt<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Eintracht.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			     <time>Sun 19 16:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Monchengladbach.png" width="25px" height="25px">M'gladbach</span>
+        		      vs
+        			    <span class="team">Bayern<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <h3>April 2017</h3>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			     <time>Sat 01 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px">Bayern</span>
+        		      vs
+        			    <span class="team">Augsburg<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Augsburg.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			     <time>Tue 04 19:00</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Hoffenheim.png" width="25px" height="25px">Hoffenheim</span>
+        		      vs
+        			    <span class="team">Bayern<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			     <time>Sat 08 17:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px">Bayern</span>
+        		      vs
+        			  <span class="team">Dortmund<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Dortmund.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			     <time>Sat 15 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayer-04.png" width="25px" height="25px">Bayer</span>
+        		      vs
+        			  <span class="team">Bayern<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			     <time>Sat 22 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Bayern.png" width="25px" height="25px">Bayern</span>
+        		      vs
+        			  <span class="team">Mainz<img alt="the football team's logo" class="team-logo" src="../images/teams/bundesliga/Mainz.png" width="25px" height="25px"></span>
+                </p>
+              </div>
+            </div>
+            <h2>Image Gallery</h2>
+            <div class="images">
+              <br>
+              <address>click on each thumbnail to enlarge</address>
+              <div class="thumbnails flexbox">
+                <img onclick="enlargeImage(this)" src="http://cdn.thankyoustudio.com/ty-cms/assets/images/bundesliga_0004-1443180977151-1920.jpg" alt="enter image description here" width="100px" height="75px">
+                <img onclick="enlargeImage(this)" src="http://a.espncdn.com/combiner/i/?img=/photo/2016/0211/r53572_1296x729_16-9.jpg&w=738&site=espnfc" alt="enter image description here" width="100px" height="75px">
+                <img onclick="enlargeImage(this)" src="http://e2.365dm.com/16/05/16-9/20/pep-guardiola-bayern-munich-bundesliga-david-alaba_3466602.jpg?20160514184105" alt="enter image description here" width="100px" height="75px">
+                <img onclick="enlargeImage(this)" src="http://i3.mirror.co.uk/incoming/article5748481.ece/ALTERNATES/s615b/Bayern-Munich-Bundesliga-Champions.jpg" alt="enter image description here" width="100px" height="75px">
+              </div>
+              <div class="display"></div>
+            </div>
+        </section>
+        <aside id="search">
+          <h3>Bundesliga Title</h3>
+          <br>
+          <div class="title">
+    	    <img id="title-image" src="../images/titles/bundesliga.jpg" width="150px" height="150px">
+    		<div class="title-description">
+    		  <p>The German football champions are the annual winners of the highest association football competition
+    		  in Germany. The team that finishes top of the Bundesliga will crowned champions with this exemplary trophy.</p>
+    		</div>
+    	  </div>
+		</aside>
+    </main>
+
+    <footer>
+        <h4>Share Sho Football League News</h4>
+        <div id="share" class="flexbox"></div>
+    </footer>
+
+    <!--  ENLARGED IMAGE VIEW -->
+    <div class="enlarged-view">
+      <button id="close-view" onclick="closeView()">EXIT</button>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="../scripts/animations.js"></script>
+    <script type="text/javascript" src="../scripts/social-media.js"></script>
+
+</body>
+
+</html>
