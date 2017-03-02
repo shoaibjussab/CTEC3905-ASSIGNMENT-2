@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sho Football League News - Juventus FC</title>
+    <meta name="description" content="Get the latest in Football news from the top leagues around the world">
+    <!-- responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- styles -->
+    <link type="text/css" rel="stylesheet" href="../styles/style.css">
+    <link type="text/css" rel="stylesheet" href="../styles/teams.css">
+    <!-- social media sharing plugin -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../jssocials-1.4.0/jssocials-theme-plain.css">
+    <script src="../jssocials-1.4.0/jssocials.min.js"></script>
+
+    <!-- INLINE STYLE TO CHANGE ACCENT COLOR ON EACH TEAM PAGE -->
+    <!-- JUVENTUS ACCENT COLOR: black -->
+
+    <style>
+        nav {
+            background-color: black;
+        }
+
+        #search a, #search button {
+            background-color:black;
+        }
+
+        .mobile-nav-buttons {
+            background-color: black;
+        }
+
+        /* highlights the active link in the mobile nav */
+        .mobile-nav #active {
+            background-color: black;
+        }
+
+        .read-more, .scroll, .mobile-scroll, #submit-form, #clear-form {
+            background-color: black;
+        }
+
+        .read-more:hover, .scroll:hover, .mobile-scroll:hover, #submit-form:hover, #clear-form:hover {
+            background-color: snow;
+            border: 2px solid;
+            box-shadow: 0px 5px 5px 1px black;
+            color: black;
+        }
+
+        .player-card {
+          background-color: black;
+        }
+
+        .fixtures h3 {
+          background-color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+  <div class="news-bulletin">
+    <div class="container flexbox scroll-animation">
+      <p>Fans Throw Flares During Match...<a href="../articles/palermo-woes.html">read more at palermo-woes.html</a></p>
+      <p>Bayern Dominates...<a href="../articles/dominant-bayern.html">read more at dominant-bayern.html</a></p>
+      <p>Messi Scores Brilliant Goal...<a href="../articles/messi-overhead-screamer.html">read more at messi-overhead-screamer.html</a></p>
+      <p>Liverpool Loans Out Markovic...<a href="../articles/markovic-joins-hull.html">read more at markovic-joins-hull.html</a></p>
+      <p>Ronaldo Sustains Injury...<a href="../articles/ronaldo-ankle-injury.html">read more at ronaldo-ankle-injury.html</a></p>
+    </div>
+  </div>
+    <header style="background-image: url('../images/squads/Juventus.jpg')">
+        <img src="../images/teams/serie-a/Juventus.png" width="300px" height="300px" alt="Bayern Munich FC Logo">
+        <h1>JUVENTUS FC</h1>
+    </header>
+    <nav>
+        <ul class="flexbox">
+            <div class="nav-left">
+                <a href="../index.html">
+                    <li id=>Home</li>
+                </a>
+                <a href="../la-liga.html">
+                    <li>La Liga</li>
+                </a>
+                <a href="../bundesliga.html">
+                    <li>Bundesliga</li>
+                </a>
+                <a href="../serie-a.html">
+                    <li>Serie A</li>
+                </a>
+                <a href="../premier-league.html">
+                    <li>Premier League</li>
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="../about-us.html">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact.html">
+                    <li>Contact Us</li>
+                </a>
+            </div>
+        </ul>
+    </nav>
+    <nav class="mobile-nav flexbox">
+        <p id="nav-text">MENU</p>
+        <div class="mobile-nav-buttons">
+            <p class="close-nav">X</p>
+            <p class="main-menu" id="active-tab" onclick="changeTab(this)">Main Menu</p>
+            <p class="league-leaders" onclick="changeTab(this)">League Leaders</p>
+			<p class="more" onclick="changeTab(this)">More</p>
+        </div>
+        <ul class="nav-links flexbox">
+            <a href="../index.html">
+                <li>HOME</li>
+            </a>
+            <a href="../la-liga.html">
+                <li>LA LIGA</li>
+            </a>
+            <a href="../bundesliga.html">
+                <li>BUNDESLIGA</li>
+            </a>
+            <a href="../serie-a.html">
+                <li>SERIE A</li>
+            </a>
+            <a href="../premier-league.html">
+                <li>PREMIER LEAGUE</li>
+            </a>
+        </ul>
+		<ul class="more-links flexbox">
+			<a href="../about-us.html">
+                <li>ABOUT US</li>
+            </a>
+            <a href="../contact.html">
+                <li>CONTACT US</li>
+			</a>
+		</ul> 
+        <div class="mobile-search flexbox">
+            <a href="madrid.html">
+                <li>MADRID</li>
+            </a>
+            <a href="bayern.html">
+                <li>BAYERN</li>
+			</a>
+			<a href="juventus.html">
+                <li id="active">JUVENTUS</li>
+			</a>
+			<a href="chelsea.html">
+                <li>CHELSEA</li>
+			</a>
+        </div>
+    </nav>
+    <main class="flexbox">
+        <section id="new-stories">
+            <h2>Team History</h2>
+            <div class="club-history">
+                <p>Juventus Football Club is a professional Italian association football club based in Turin, Piedmont.
+                Founded in 1897 as Sport-Club Juventus by a group of young Torinese students. Juventus was the first professional
+                club in the country Italy. The club's fan base is larger than any other Italian football club and is one of the
+                largest worldwide. Juventus are the current league leaders of Serie A and are on course to win their 33rd
+                Serie A title.</p>
+                <br>
+                <p>Juventus is the most successful club in Italian football and one of the most awarded globally. Overall,
+                they have won sixty-one official titles on the national and international stage, more than any other Italian
+                club: a record thirty-two official league titles, a record eleven Coppa Italia titles, a record seven
+                Supercoppa Italiana titles, and, with eleven titles in confederation and inter-confederation competitions
+                (two Intercontinental Cups, two European Champion Clubs' Cup/UEFA Champions Leagues, one European Cup Winners'
+                Cup, three UEFA Cups, two UEFA Super Cups and one UEFA Intertoto Cup).</p>
+            </div>
+            <h2>Squad</h2>
+            <div class="squads flexbox">
+
+                <div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/228413.png" width="125px" height="125px">
+                    <h3>32 Emil Audero</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 19</p>
+                        <p>Height: 6'3"</p>
+                        <p>Weight: 179lbs</p>
+                    </div>
+                </div>
+
+                <div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/1179.png" width="125px" height="125px">
+                    <h3>1 Gianluigi Buffon</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 38</p>
+                        <p>Height: 6'4"</p>
+                        <p>Weight: 201lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://tmssl.akamaized.net//images/portrait/originals/265079-1448361258.png" width="125px" height="125px">
+                    <h3>45 Mattia Del Favero</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 17</p>
+                        <p>Height: 6'3"</p>
+                        <p>Weight: 185lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/194135.png" width="125px" height="125px">
+                    <h3>36 Leonardo Loria</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 16</p>
+                        <p>Height: 6'4"</p>
+                        <p>Weight: 192lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/15/players/194404.png" width="125px" height="125px">
+                    <h3>25 Neto</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Brazil</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 26</p>
+                        <p>Height: 6'4"</p>
+                        <p>Weight: 185bs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/191043.png" width="125px" height="125px">
+                    <h3>12 Alex Sandro</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Brazil</p>
+						<p>Position: Defender</p>
+                        <p>Age: 25</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 172lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/146530.png" width="125px" height="125px">
+                    <h3>23 Dani Alves</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Brazil</p>
+						<p>Position: Defender</p>
+                        <p>Age: 32</p>
+                        <p>Height: 5'8"</p>
+                        <p>Weight: 154lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/137186.png" width="125px" height="125px">
+                    <h3>15 Andrea Barzagli</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Defender</p>
+                        <p>Age: 34</p>
+                        <p>Height: 6'2"</p>
+                        <p>Weight: 192lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/177509.png" width="125px" height="125px">
+                    <h3>4 Mehdi Benatia</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Morocco</p>
+						<p>Position: Defender</p>
+                        <p>Age: 28</p>
+                        <p>Height: 6'3"</p>
+                        <p>Weight: 203lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/184344.png" width="125px" height="125px">
+                    <h3>19 Leonardo Bonucci</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Defender</p>
+                        <p>Age: 28</p>
+                        <p>Height: 6'3"</p>
+                        <p>Weight: 190lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/138956.png" width="125px" height="125px">
+                    <h3>3 Giorgio Chiellini</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Defender</p>
+                        <p>Age: 31</p>
+                        <p>Height: 6'2"</p>
+                        <p>Weight: 190lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://tmssl.akamaized.net//images/portrait/header/344655-1448361430.jpg?lm=1448361444" width="125px" height="125px">
+                    <h3>40 Luca Coccolo</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Defender</p>
+                        <p>Age: 17</p>
+                        <p>Height: 6'2"</p>
+                        <p>Weight: 168lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/173212.png" width="125px" height="125px">
+                    <h3>29 Paolo De Ceglie</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Defender</p>
+                        <p>Age: 29</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 165lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/108080.png" width="125px" height="125px">
+                    <h3>26 Stephan Lichtsteiner</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Switzerland</p>
+						<p>Position: Defender</p>
+                        <p>Age: 32</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 165lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="https://cdn.futbin.com/content/fifa15/img/players/211320.png" width="125px" height="125px">
+                    <h3>24 Daniele Rugani</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Defender</p>
+                        <p>Age: 21</p>
+                        <p>Height: 6'3"</p>
+                        <p>Weight: 181lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="https://www.irbbarcelona.org/sites/default/files/default_images/people.png" width="125px" height="125px">
+                    <h3>43 Alessandro Semprini</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Defender</p>
+                        <p>Age: 17</p>
+                        <p>Height: - </p>
+                        <p>Weight: - </p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/186832.png" width="125px" height="125px">
+                    <h3>22 Kwadwo Asamoah</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Ghana</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 27</p>
+                        <p>Height: 5'8"</p>
+                        <p>Weight: 168lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/180432.png" width="125px" height="125px">
+                    <h3>11 Hernanes</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Brazil</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 30</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 170lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/179846.png" width="125px" height="125px">
+                    <h3>6 Sami Khedira</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 28</p>
+                        <p>Height: 6'2"</p>
+                        <p>Weight: 198lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/212811.png" width="125px" height="125px">
+                    <h3>18 Mario Lemina</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Gabon</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 22</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 183lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/168393.png" width="125px" height="125px">
+                    <h3>38 Rolando Mandragora</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 18</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 168lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/173210.png" width="125px" height="125px">
+                    <h3>8 Claudio Marchisio</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 30</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 157lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/15/players/223429.png" width="125px" height="125px">
+                    <h3>14 Federico Mattiello</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 20</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 170lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/180206.png" width="125px" height="125px">
+                    <h3>5 Miralem Pjanic</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Bosnia</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 25</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 163lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/191053.png" width="125px" height="125px">
+                    <h3>28 Tom&aacute;s Rinc&oacute;n</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Venezuela</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 28</p>
+                        <p>Height: 5'9"</p>
+                        <p>Weight: 165lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/202135.png" width="125px" height="125px">
+                    <h3>27 Stefano Sturaro</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 22</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 174lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/193082.png" width="125px" height="125px">
+                    <h3>7 Juan Cuadrado</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Columbia</p>
+						<p>Position: Forward</p>
+                        <p>Age: 27</p>
+                        <p>Height: 5'10"</p>
+                        <p>Weight: 157</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/211110.png" width="125px" height="125px">
+                    <h3>21 Paulo Dybala</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Argentina</p>
+						<p>Position: Forward</p>
+                        <p>Age: 22</p>
+                        <p>Height: 5'9"</p>
+                        <p>Weight: 161lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/167664.png" width="125px" height="125px">
+                    <h3>9 Gonzalo Higua&iacute;n</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Argentina</p>
+						<p>Position: Forward</p>
+                        <p>Age: 28</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 174lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/191043.png" width="125px" height="125px">
+                    <h3>34 Kean Moise</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Italy</p>
+						<p>Position: Forward</p>
+                        <p>Age: 15</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 159lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/181783.png" width="125px" height="125px">
+                    <h3>17 Mario Mandzukic</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Croatia</p>
+						<p>Position: Forward</p>
+                        <p>Age: 29</p>
+                        <p>Height: 6'3"</p>
+                        <p>Weight: 187lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/229593.png" width="125px" height="125px">
+                    <h3>20 Marko Pjaca</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Croatia</p>
+						<p>Position: Forward</p>
+                        <p>Age: 20</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 170lbs</p>
+                    </div>
+                </div>
+				               
+            </div>
+            <h2>Table Position</h2>
+            <div class="table-position">
+              <h3 class="first">1st</h3>
+            </div>
+            <h2>Upcoming Fixtures</h2>
+            <div class="fixtures">
+              <h3>February 2017</h3>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Weds 08 17:00</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Crotone.png" width="25px" height="25px">Crotone</span>
+        		      vs
+        			  <span class="team">Juventus<img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Juventus.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+			  <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Sun 12 19:45</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Cagliari.png" width="25px" height="25px">Cagliari</span>
+        		      vs
+        			  <span class="team">Juventus<img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Juventus.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+			  <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Sun 12 19:45</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Juventus.png" width="25px" height="25px">Juventus</span>
+        		      vs
+        			  <span class="team">Palermo<img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Palermo.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+              <h3>March 2017</h3>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Sat 04 12:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Udinese.png" width="25px" height="25px">Udinese</span>
+        		      vs
+        			  <span class="team">Juventus<img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Juventus.png" width="25px" height="25px"></span>
+                    </p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Sat 12 13:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Juventus.png" width="25px" height="25px">Juventus</span>
+        		      vs
+        			  <span class="team">AC Milan<img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Milan.png" width="25px" height="25px"></span>
+                    </p>
+              </div>
+              <h3>April 2017</h3>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Mon 06 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Napoli.png" width="25px" height="25px">Napoli</span>
+        		      vs
+        			  <span class="team">Juvenuts<img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Juventus.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Mon 13 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Napoli.png" width="25px" height="25px">Napoli</span>
+        		      vs
+        			  <span class="team">Juventus<img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Juventus.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Sat 18 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Juventus.png" width="25px" height="25px">Juventus</span>
+        		      vs
+        			  <span class="team">Chievo<img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Chievo.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+            </div>
+            <h2>Image Gallery</h2>
+            <div class="images">
+              <br>
+              <address>click on each thumbnail to enlarge</address>
+              <div class="thumbnails flexbox">
+                <img onclick="enlargeImage(this)" src="http://static.007soccerpicks.com/wp-content/uploads/2016/12/Juventus-Serie-A.jpg?x67081" alt="enter image description here" width="100px" height="75px">
+                <img onclick="enlargeImage(this)" src="http://i3.mirror.co.uk/incoming/article9694393.ece/ALTERNATES/s615/PAY-Italy-Cup-quarter-final-soccer-match-Juventus-Milan.jpg" alt="enter image description here" width="100px" height="75px">
+                <img onclick="enlargeImage(this)" src="https://lh3.googleusercontent.com/-kj5OzMHfk9k/V0I94A1wSZI/AAAAAAAALMg/Jguy0iqRRvQmolO6D0Di4w896nBp96S4wCCo/s631/Juventus%2Bvs%2BAC%2BMilan.jpg" alt="enter image description here" width="100px" height="75px">
+                <img onclick="enlargeImage(this)" src="http://images.performgroup.com/di/library/GOAL/ca/d2/miralem-pjanic-luca-antonelli-juventus-milan_1ecalfdd0umbc13chy34ztmabi.jpg?t=-681452071" alt="enter image description here" width="100px" height="75px">
+              </div>
+              <div class="display"></div>
+            </div>
+        </section>
+        <aside id="search">
+          <h3>Serie A Title</h3>
+          <br>
+          <div class="title">
+    	    <img id="title-image" src="../images/titles/serie-a.jpg" width="150px" height="150px">
+    		<div class="title-description">
+    		  <p>Serie A is regarded as one of the best football leagues in the world and it is often depicted
+			  as the most tactical national league. The team that finishes top of Serie A will crowned champions
+			  with this superb trophy</p>
+    		</div>
+    	  </div>
+		</aside>
+    </main>
+
+    <footer>
+        <h4>Share Sho Football League News</h4>
+        <div id="share" class="flexbox"></div>
+    </footer>
+
+    <!--  ENLARGED IMAGE VIEW -->
+    <div class="enlarged-view">
+      <button id="close-view" onclick="closeView()">EXIT</button>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="../scripts/animations.js"></script>
+    <script type="text/javascript" src="../scripts/social-media.js"></script>
+
+</body>
+
+</html>
