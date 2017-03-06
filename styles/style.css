@@ -249,9 +249,9 @@ main {
 	width: 300px;
 	transition: 1s opacity ease;
 	text-align: left;
-  z-index: 5;
-  display: none;
-  opacity: 0;
+	z-index: 5;
+	display: none;
+	opacity: 0;
 }
 
 #search img {
