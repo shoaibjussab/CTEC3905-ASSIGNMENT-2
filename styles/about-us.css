@@ -30,6 +30,7 @@ section p {
   padding: 50px 50px;
   background-color: snow;
   border-radius: 5px;
+  text-align: center;
 }
 
 /* media queries */
