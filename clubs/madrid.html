@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sho Football League News - CF Real Madrid</title>
+    <meta name="description" content="Get the latest in Football news from the top leagues around the world">
+    <!-- responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- styles -->
+    <link type="text/css" rel="stylesheet" href="../styles/style.css">
+    <link type="text/css" rel="stylesheet" href="../styles/teams.css">
+    <!-- social media sharing plugin -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../jssocials-1.4.0/jssocials-theme-plain.css">
+    <script src="../jssocials-1.4.0/jssocials.min.js"></script>
+
+    <!-- INLINE STYLE TO CHANGE ACCENT COLOR ON EACH TEAM PAGE -->
+    <!-- MADRID ACCENT COLOR: #f7c70a -->
+
+    <style>
+        nav {
+            background-color: #f7c70a;
+        }
+
+        #search a, #search button {
+            background-color: #f7c70a;
+        }
+
+        .mobile-nav-buttons {
+            background-color: #f7c70a;
+        }
+
+        /* highlights the active link in the mobile nav */
+        .mobile-nav #active {
+            background-color: #f7c70a;
+        }
+
+        .read-more, .scroll, .mobile-scroll, #submit-form, #clear-form {
+            background-color: #f7c70a;
+        }
+
+        .read-more:hover, .scroll:hover, .mobile-scroll:hover, #submit-form:hover, #clear-form:hover {
+            background-color: snow;
+            border: 2px solid;
+            box-shadow: 0px 5px 5px 1px #f7c70a;
+            color: #f7c70a;
+        }
+
+        .player-card {
+          background-color: #f7c70a;
+        }
+
+        .fixtures h3 {
+          background-color: #f7c70a;
+        }
+    </style>
+
+</head>
+
+<body>
+  <div class="news-bulletin">
+    <div class="container flexbox scroll-animation">
+      <p>Fans Throw Flares During Match...<a href="../articles/palermo-woes.html">read more at palermo-woes.html</a></p>
+      <p>Bayern Dominates...<a href="../articles/dominant-bayern.html">read more at dominant-bayern.html</a></p>
+      <p>Messi Scores Brilliant Goal...<a href="../articles/messi-overhead-screamer.html">read more at messi-overhead-screamer.html</a></p>
+      <p>Liverpool Loans Out Markovic...<a href="../articles/markovic-joins-hull.html">read more at markovic-joins-hull.html</a></p>
+      <p>Ronaldo Sustains Injury...<a href="../articles/ronaldo-ankle-injury.html">read more at ronaldo-ankle-injury.html</a></p>
+    </div>
+  </div>
+    <header style="background-image: url('../images/squads/Madrid.jpg')">
+        <img src="../images/teams/la-liga/Madrid.png" width="300px" height="300px" alt="Bayern Munich FC Logo">
+        <h1>CF REAL MADRID</h1>
+    </header>
+    <nav>
+        <ul class="flexbox">
+            <div class="nav-left">
+                <a href="../index.html">
+                    <li id=>Home</li>
+                </a>
+                <a href="../la-liga.html">
+                    <li>La Liga</li>
+                </a>
+                <a href="../bundesliga.html">
+                    <li>Bundesliga</li>
+                </a>
+                <a href="../serie-a.html">
+                    <li>Serie A</li>
+                </a>
+                <a href="../premier-league.html">
+                    <li>Premier League</li>
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="../about-us.html">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact.html">
+                    <li>Contact Us</li>
+                </a>
+            </div>
+        </ul>
+    </nav>
+    <nav class="mobile-nav flexbox">
+        <p id="nav-text">MENU</p>
+        <div class="mobile-nav-buttons">
+            <p class="close-nav">X</p>
+            <p class="main-menu" id="active-tab" onclick="changeTab(this)">Main Menu</p>
+            <p class="league-leaders" onclick="changeTab(this)">League Leaders</p>
+			<p class="more" onclick="changeTab(this)">More</p>
+        </div>
+        <ul class="nav-links flexbox">
+            <a href="../index.html">
+                <li>HOME</li>
+            </a>
+            <a href="../la-liga.html">
+                <li>LA LIGA</li>
+            </a>
+            <a href="../bundesliga.html">
+                <li>BUNDESLIGA</li>
+            </a>
+            <a href="../serie-a.html">
+                <li>SERIE A</li>
+            </a>
+            <a href="../premier-league.html">
+                <li>PREMIER LEAGUE</li>
+            </a>
+        </ul>
+		<ul class="more-links flexbox">
+			<a href="../about-us.html">
+                <li>ABOUT US</li>
+            </a>
+            <a href="../contact.html">
+                <li>CONTACT US</li>
+			</a>
+		</ul> 
+        <div class="mobile-search flexbox">
+            <a href="madrid.html">
+                <li id="active">MADRID</li>
+            </a>
+            <a href="bayern.html">
+                <li>BAYERN</li>
+			</a>
+			<a href="juventus.html">
+                <li>JUVENTUS</li>
+			</a>
+			<a href="chelsea.html">
+                <li>CHELSEA</li>
+			</a>
+        </div>
+	</nav>
+    <main class="flexbox">
+        <section id="new-stories">
+            <h2>Team History</h2>
+            <div class="club-history">
+                <p>Real Madrid is a professional football club based in Madrid, Spain founded in 1902. The team has
+                traditionally worn a white home kit since inception. The team has played its home matches in the 85,454-capacity
+                Santiago Bernab&eacute;u Stadium in downtown Madrid since 1947. Unlike most European sporting entities.
+                Real Madrid are the current league leaders of La Liga and are on course to win their 33rd La Liga title.</p>
+                <br>
+                <p>The club is one of the most widely supported teams in the world. In domestic football, the club has won a
+                record 32 La Liga titles, 19 Copa del Rey, nine Supercopa de Espa&ntilde;a, a Copa Eva Duarte, and a Copa de la Liga.
+                In international football, the club has won a record 11 European Cup/UEFA Champions League titles, a joint record
+                three Intercontinental Cups, two UEFA Cups, three UEFA Super Cups and two FIFA Club World Cups. In terms of
+                international titles won, Real Madrid is the most successful club in the world.</p>
+            </div>
+			
+			<h2>Squad</h2>
+            <div class="squads flexbox">
+
+                <div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/177644.png" width="125px" height="125px">
+                    <h3>13 Kiko Casilla</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 29</p>
+                        <p>Height: 6'3"</p>
+                        <p>Weight: 185lbs</p>
+                    </div>
+                </div>
+
+                <div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/1179.png" width="125px" height="125px">
+                    <h3>34 Alex Craninx</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Belgium</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 20</p>
+                        <p>Height: 6'5"</p>
+                        <p>Weight: 176lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/193041.png" width="125px" height="125px">
+                    <h3>1 Keylor Navas</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Costa Rica</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 29</p>
+                        <p>Height: 6'1"</p>
+                        <p>Weight: 172lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/219836.png" width="125px" height="125px">
+                    <h3>25 Rub&eacute;n Y&aacute;&ntilde;ez </h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 22</p>
+                        <p>Height: 6'2"</p>
+                        <p>Weight: 181lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="https://www.fff.fr/%2Fcommon%2Fbib_img%2Fimages%2F540000%2F2000%2F151008144259_zidane.jpg" width="125px" height="125px">
+                    <h3>30 Luca Zidane</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: France</p>
+						<p>Position: Goalkeeper</p>
+                        <p>Age: 17</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: - </p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/204963.png" width="125px" height="125px">
+                    <h3>2 Dani Carvajal</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Defender</p>
+                        <p>Age: 24</p>
+                        <p>Height: 5'8"</p>
+                        <p>Weight: 161lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/15/players/171688.png" width="125px" height="125px">
+                    <h3>15 F&aacute;bio Coentrao</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Portugal</p>
+						<p>Position: Defender</p>
+                        <p>Age: 27</p>
+                        <p>Height: 5'10"</p>
+                        <p>Weight: 172lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/15/players/199304.png" width="125px" height="125px">
+                    <h3>23 Danilo</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Brazil</p>
+						<p>Position: Defender</p>
+                        <p>Age: 24</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 172lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://img.uefa.com/imgml/TP/players/2008/2016/324x324/250088061.jpg" width="125px" height="125px">
+                    <h3>32 Achraf Hakimi</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Morocco</p>
+						<p>Position: Defender</p>
+                        <p>Age: 17</p>
+                        <p>Height: 5'10"</p>
+                        <p>Weight: 143lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/176676.png" width="125px" height="125px">
+                    <h3>12 Marcelo</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Brazil</p>
+						<p>Position: Defender</p>
+                        <p>Age: 27</p>
+                        <p>Height: 5'9"</p>
+                        <p>Weight: 165lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/177604.png" width="125px" height="125px">
+                    <h3>6 Nacho</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Defender</p>
+                        <p>Age: 26</p>
+                        <p>Height: 5'10"</p>
+                        <p>Weight: 165lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/120533.png" width="125px" height="125px">
+                    <h3>3 Pepe</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Portugal</p>
+						<p>Position: Defender</p>
+                        <p>Age: 32</p>
+                        <p>Height: 6'2"</p>
+                        <p>Weight: 179lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/155862.png" width="125px" height="125px">
+                    <h3>4 Sergio Ramos</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Defender</p>
+                        <p>Age: 29</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 165lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/201535.png" width="125px" height="125px">
+                    <h3>5 Raphael Varane</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: France</p>
+						<p>Position: Defender</p>
+                        <p>Age: 22</p>
+                        <p>Height: 6'3"</p>
+                        <p>Weight: 172lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/220834.png" width="125px" height="125px">
+                    <h3>20 Marco Asensio</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 20</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 165lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/200145.png" width="125px" height="125px">
+                    <h3>14 Casemiro</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Brazil</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 23</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 176lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/15/players/197781.png" width="125px" height="125px">
+                    <h3>22 Isco</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 23</p>
+                        <p>Height: 5'9"</p>
+                        <p>Weight: 163lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/207410.png" width="125px" height="125px">
+                    <h3>16 Mateo Kovacic</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Croatia</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 21</p>
+                        <p>Height: 5'10"</p>
+                        <p>Weight: 170lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/182521.png" width="125px" height="125px">
+                    <h3>8 Toni Kroos</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Germany</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 26</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 172lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/177003.png" width="125px" height="125px">
+                    <h3>19 Luka Modric</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Croatia</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 30</p>
+                        <p>Height: 5'9"</p>
+                        <p>Weight: 143lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/15/players/198710.png" width="125px" height="125px">
+                    <h3>10 James Rodr&iacute;guez</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Columbia</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 24</p>
+                        <p>Height: 5'11"</p>
+                        <p>Weight: 165lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/211234.png" width="125px" height="125px">
+                    <h3>29 Enzo Zidane</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: France</p>
+						<p>Position: Midfielder</p>
+                        <p>Age: 20</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: - </p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/173731.png" width="125px" height="125px">
+                    <h3>11 Gareth Bale</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Wales</p>
+						<p>Position: Forward</p>
+                        <p>Age: 26</p>
+                        <p>Height: 6'0"</p>
+                        <p>Weight: 163lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/165153.png" width="125px" height="125px">
+                    <h3>9 Karim Benzema</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: France</p>
+						<p>Position: Forward</p>
+                        <p>Age: 28</p>
+                        <p>Height: 6'2"</p>
+                        <p>Weight: 174lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/14/players/173857.png" width="125px" height="125px">
+                    <h3>18 Mariano</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Forward</p>
+                        <p>Age: 22</p>
+                        <p>Height: 5'10"</p>
+                        <p>Weight: 174lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/16/players/201153.png" width="125px" height="125px">
+                    <h3>21 &Aacute;lvaro Morata</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Forward</p>
+                        <p>Age: 23</p>
+                        <p>Height: 6'2"</p>
+                        <p>Weight: 187lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/20801.png" width="125px" height="125px">
+                    <h3>7 Cristiano Ronaldo</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Portugal</p>
+						<p>Position: Forward</p>
+                        <p>Age: 30</p>
+                        <p>Height: 6'1"</p>
+                        <p>Weight: 176lbs</p>
+                    </div>
+                </div>
+				
+				<div class="player-card">
+                    <img src="http://futhead.cursecdn.com/static/img/17/players/208618.png" width="125px" height="125px">
+                    <h3>17 Lucas V&aacute;zquez</h3>
+                    <hr>
+                    <br>
+                    <div class="stats">
+                        <p>Nationality: Spain</p>
+						<p>Position: Forward</p>
+                        <p>Age: 24</p>
+                        <p>Height: 5'8"</p>
+                        <p>Weight: 154lbs</p>
+                    </div>
+                </div>
+				               
+            </div>
+			
+            <h2>Table Position</h2>
+            <div class="table-position">
+              <h3 class="first">1st</h3>
+            </div>
+            <h2>Upcoming Fixtures</h2>
+            <div class="fixtures">
+              <h3>February 2017</h3>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Weds 08 17:00</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Osasuna.png" width="25px" height="25px">Osasuna</span>
+        		      vs
+        			  <span class="team">Real Madrid<img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Madrid.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+			  <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Sun 12 19:45</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Madrid.png" width="25px" height="25px">Real Madrid</span>
+        		      vs
+        			  <span class="team">Napoli<img alt="the football team's logo" class="team-logo" src="../images/teams/serie-a/Napoli.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+			  <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Sun 12 19:45</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Madrid.png" width="25px" height="25px">Real Madrid</span>
+        		      vs
+        			  <span class="team">Espanyol<img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Espanyol.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+              <h3>March 2017</h3>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Sat 04 12:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Madrid.png" width="25px" height="25px">Real Madrid</span>
+        		      vs
+        			  <span class="team">Las Palmas<img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Palmas.png" width="25px" height="25px"></span>
+                    </p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Sat 12 13:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Eibar.png" width="25px" height="25px">Eibar</span>
+        		      vs
+        			  <span class="team">Real Madrid<img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Madrid.png" width="25px" height="25px"></span>
+                    </p>
+              </div>
+              <h3>April 2017</h3>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Mon 06 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Madrid.png" width="25px" height="25px">Real Madrid</span>
+        		      vs
+        			  <span class="team">Alaves<img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Alaves.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Mon 13 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Leganes.png" width="25px" height="25px">Leganes</span>
+        		      vs
+        			  <span class="team">Real Madrid<img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Madrid.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+              <div class="fixture">
+        		    <p class="flexbox">
+        			  <time>Sat 18 14:30</time>
+        		      <span class="team"><img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Madrid.png" width="25px" height="25px">Real Madrid</span>
+        		      vs
+        			  <span class="team">Atletico <img alt="the football team's logo" class="team-logo" src="../images/teams/la-liga/Atletico-Madrid.png" width="25px" height="25px"></span>
+					</p>
+              </div>
+            </div>
+            <h2>Image Gallery</h2>
+            <div class="images">
+              <br>
+              <address>click on each thumbnail to enlarge</address>
+              <div class="thumbnails flexbox">
+                <img onclick="enlargeImage(this)" src="http://images.performgroup.com/di/library/goal_es/1a/2f/cristiano-ronaldo-real-madrid-real-sociedad-laliga-29012016_1n5spw62rxts61sqibyvq3pu4o.jpg?t=-334017247" alt="enter image description here" width="100px" height="75px">
+                <img onclick="enlargeImage(this)" src="http://images.performgroup.com/di/library/GOAL_INTERNATIONAL/c9/a7/champions-league-final-real-madrid-atletico-madrid-28052016_egln9y86iwos1rz4qedj5knn5.jpg?t=-109706140" alt="enter image description here" width="100px" height="75px">
+                <img onclick="enlargeImage(this)" src="https://www.tvnz.co.nz/content/dam/images/news/2017/01/08/GettyImages-631134736.jpg.hashed.b8222393.desktop.story.inline.jpg" alt="enter image description here" width="100px" height="75px">
+                <img onclick="enlargeImage(this)" src="http://media.philstar.com/images/the-philippine-star/sports/20160323/ps-real-madrid.jpg" alt="enter image description here" width="100px" height="75px">
+              </div>
+              <div class="display"></div>
+            </div>
+        </section>
+        <aside id="search">
+          <h3>This League's Title</h3>
+          <br>
+          <div class="title">
+    	    <img id="title-image" src="../images/titles/la-liga.jpg" width="150px" height="150px">
+    		<div class="title-description">
+    		  <p>A total of 60 teams have competed in La Liga since it has been created. Nine teams have been crowned
+			  champions, with Real Madrid winning the title for a record 32 times. The team that finishes top of La Liga
+			  will be crowned champions with this exquisite trophy.</p>
+    		</div>
+    	  </div>
+		</aside>
+    </main>
+
+    <footer>
+        <h4>Share Sho Football League News</h4>
+        <div id="share" class="flexbox"></div>
+    </footer>
+
+    <!--  ENLARGED IMAGE VIEW -->
+    <div class="enlarged-view">
+      <button id="close-view" onclick="closeView()">EXIT</button>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="../scripts/animations.js"></script>
+    <script type="text/javascript" src="../scripts/social-media.js"></script>
+
+</body>
+
+</html>
