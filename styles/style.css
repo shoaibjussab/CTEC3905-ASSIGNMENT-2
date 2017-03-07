@@ -37,7 +37,6 @@ html {
     display: -moz-box;
     display: flex;
 	padding: 10px 0px;
-	
 }
 
 
@@ -145,7 +144,6 @@ nav li {
     list-style-type: none;
     font-size: 16px;
     text-transform: uppercase;
-    color: white;
 }
 
 nav li {
@@ -249,9 +247,9 @@ main {
 	width: 300px;
 	transition: 1s opacity ease;
 	text-align: left;
-	z-index: 5;
-	display: none;
-	opacity: 0;
+  z-index: 5;
+  display: none;
+  opacity: 0;
 }
 
 #search img {
@@ -631,6 +629,84 @@ footer .jssocials-share-link:hover {
 /* media queries */
 
 
+/* mobile phones landscape */
+
+@media handheld, (orientation: landscape) and (max-width: 736px) {
+    .carouselContainer {
+        width: 500px;
+    }
+    .carouselContainer img {
+        width: 75px;
+        height: 75px;
+    }
+    .scroll {
+        display: none;
+    }
+    .carouselContainer ul {
+        width: 3000px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    #carousel-la-liga {
+        width: 3500px;
+    }
+    #carousel-serie-a {
+        width: 3500px;
+    }
+    #carousel-premier-league {
+        width: 3500px;
+    }
+    figure.teams {
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .teams .mobile-scroll-buttons {
+        display: block;
+    }
+    .mobile-scroll {
+        background-color: mediumseagreen;
+        display: inline-block;
+        margin: 20px 10px;
+        border: 2px solid transparent;
+        padding: 5px;
+        color: snow;
+    }
+    .videos .video {
+        width: 80%;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+
+@media only screen and (max-width: 638px) {
+	#stories {
+        display: block;
+        padding: 50px 0px;
+		max-width: 500px;
+		margin: 0 auto;
+    }
+	
+	.story {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	
+	#main-story {
+		max-width: 550px;
+		margin: 0 auto;
+	}
+	
+	main {
+		width: 100vw;
+		padding: 0px;
+		flex-direction: column;
+	}
+}
+
 /* mobile phones portrait */
 
 @media only screen and (max-width: 480px) {
@@ -656,9 +732,7 @@ footer .jssocials-share-link:hover {
         width: 100%;
         display: block;
     }
-    #search {
-        display: none;
-    }
+  
     #new-stories {
         display: block;
         padding: 50px 0px;
@@ -748,7 +822,7 @@ footer .jssocials-share-link:hover {
         display: flex;
         position: fixed;
         width: 50px;
-        top: 35px;
+        top: 60px;
         left: 10px;
         color: white;
         padding: 10px;
@@ -823,11 +897,15 @@ footer .jssocials-share-link:hover {
         text-align: center;
         display: none;
         margin-left: 50px;
+		color: black !important;
 	}
 
+	.more-links a{
+		color: black !important;
+	}
 	.more-links li {
         margin: 5% 0%;
-        color: black;
+        color: black !important;
     }
 
     .close-nav {
@@ -846,15 +924,34 @@ footer .jssocials-share-link:hover {
     html {
         overflow-x: hidden;
     }
+	
+	body {
+		min-width: 100vw;
+	}
     #logo {
         width: 80%;
         margin: 5% 0%;
     }
-    #search {
-        display: none;
-    }
+	#search {
+		order: 0;
+		margin: 0 auto;
+		margin-bottom: 150px;
+		width: 90vw;
+		padding: 50px 0px;
+	}
+	
+	#search .title {
+		display: inline-block;
+	}
+	
+	#search .title-description {
+		max-width: 220px;
+		z-index: 10000 !important;
+	}
+	
     #news-stories {
         padding: 0px;
+		order: 5;
     }
     #main-story {
         padding: 1% 10px 2% 10px;
@@ -872,7 +969,7 @@ footer .jssocials-share-link:hover {
     .mobile-nav {
         display: flex;
         position: fixed;
-        top: 35px;
+        top: 60px;
         left: 10px;
         padding: 10px;
         color: white;
@@ -894,6 +991,7 @@ footer .jssocials-share-link:hover {
         text-align: center;
         display: none;
         margin-left: 50px;
+		color: black;
     }
     .mobile-nav-buttons {
         background-color: mediumseagreen;
@@ -912,7 +1010,7 @@ footer .jssocials-share-link:hover {
     .mobile-nav-buttons .close-nav {
         padding: 10px 0px;
     }
-    /* highlights the current tab the user is on the mobile nav */
+    /* highlights the current tab you're on in the mobile nav */
     #active-tab {
         background-color: black;
         border-radius: 0px;
@@ -931,7 +1029,7 @@ footer .jssocials-share-link:hover {
 
 	.mobile-links li {
 	    margin: 5% 0%;
-        color: black;
+        color: black !important;
 	}
     /* search feature for mobile devices */
     .mobile-search {
@@ -946,7 +1044,7 @@ footer .jssocials-share-link:hover {
 
 	.mobile-search li {
 		margin: 5% 0%;
-        color: black;
+        color: black !important;
 	}
 }
 
@@ -997,61 +1095,4 @@ footer .jssocials-share-link:hover {
         padding: 5px;
         color: snow;
     }
-}
-
-
-/* mobile phones landscape */
-
-@media handheld, (orientation: landscape) and (max-width: 736px) {
-    .carouselContainer {
-        width: 500px;
-    }
-    .carouselContainer img {
-        width: 75px;
-        height: 75px;
-    }
-    .scroll {
-        display: none;
-    }
-    .carouselContainer ul {
-        width: 3000px;
-        margin: 0;
-        padding: 0;
-        display: flex;
-    }
-    #carousel-la-liga {
-        width: 3500px;
-    }
-    #carousel-serie-a {
-        width: 3500px;
-    }
-    #carousel-premier-league {
-        width: 3500px;
-    }
-    figure.teams {
-        flex-direction: column;
-        padding: 10px 0px;
-    }
-    .teams .mobile-scroll-buttons {
-        display: block;
-    }
-    .mobile-scroll {
-        background-color: mediumseagreen;
-        display: inline-block;
-        margin: 20px 10px;
-        border: 2px solid transparent;
-        padding: 5px;
-        color: snow;
-    }
-    .videos .video {
-        width: 80%;
-        height: 250px;
-        margin: 0 auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-}
-
-@media  screen and (min-width: ) {
-
 }
