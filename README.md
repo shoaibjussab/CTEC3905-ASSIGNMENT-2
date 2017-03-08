@@ -8,6 +8,6 @@ Assignment Title: Assignment 2,
 
 Submission Date: Friday 10th March 2017 
 
-Please noe that i had some issues setting up github and that 
+Please note that i had some issues setting up github and that 
 my previous repository had crashed, therefore i had to delete 
 the repository and start again.
